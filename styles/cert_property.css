@@ -1,0 +1,27 @@
+body {
+    background: white; 
+    text-align: justify;
+}
+
+/* MY CODE */
+.container{
+    margin: 0 auto !important; /* Add !important if needed */
+    width: 825px !important; /* Add !important if needed */
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.poblacion, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
+    font-weight: bold;
+}
+.content{
+    line-height: 30px;
+}
+td{
+    margin-right:200px;
+}
+/* .certificate-container {
+    overflow: auto; 
+    page-break-after: always; 
+} */

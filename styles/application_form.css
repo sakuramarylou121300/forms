@@ -1,0 +1,78 @@
+body {
+    background: white; 
+    text-align: justify;
+    font-size: 12px;
+    margin: 0 !important;
+}
+.sheet {
+    padding-top: 10mm;
+    padding-bottom: 10mm;
+    padding-left: 10mm;
+    padding-right: 20mm;
+}
+
+/* MY CODE */
+.container{
+    margin: 0 auto !important; /* Add !important if needed */
+    width: 825px !important; /* Add !important if needed */
+}
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black; /* This will leave only the bottom border */
+    width: 150px;
+}
+tr label {
+    white-space: nowrap;
+}
+.title{
+    text-align: center;
+    width: 150px;
+    margin-right: 30px;
+}
+.input-name-owner input, .input-name-rep input{
+    width: 300px !important; /* Set the desired width in pixels or any other appropriate unit */
+} 
+.agreement{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.signature-input input{
+    width: 150px !important;
+}
+.signature-label{
+    text-align: center;
+}
+.table-signature{
+    display: flex;
+    justify-content: end;
+}
+.signature-input input, .signature-label p{
+    margin: 0;
+}
+.req-type-table{
+    padding-right: 50px;
+    padding-left: 100px;  
+    border: 1px solid black; 
+}
+.req-type-table td{
+   margin: 0;
+   padding: 0;
+}
+.req-type-table input{
+    margin-right: 10px;
+}
+.req-type-table td{
+    margin: 0;
+    padding: 0;
+}
+.req-type-table input{
+    width: 70px;
+}
+.others p{
+    display: inline; margin: 0;
+}
+.others input{
+    width: 400px;
+}
