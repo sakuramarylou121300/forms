@@ -74,5 +74,13 @@ tr label {
     display: inline; margin: 0;
 }
 .others input{
-    width: 400px;
+    width: 350px;
+}
+.name-property-hold-input input{
+    padding-top: 50px;
+    width: 300px;
+}
+.name-property-hold-name{
+    display: flex;
+
 }
