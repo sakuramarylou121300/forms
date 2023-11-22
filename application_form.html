@@ -12,8 +12,23 @@
 <body class="A4">
     <div class="container">
         <section class="sheet">
-            <!-- THIS IS THE HEADER -->
+
             <table>
+                <tr class="control_number">
+                    <td>Control No.</td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 75px; padding-right: 30px;">
+                        <h2>
+                            CITY ASSESSOR'S OFFICE <br> APPLICATION FORM
+                        </h2>
+                        
+                    </td>
+                </tr>
+                <tr></tr>
+                
+            </table>
+            <!-- THIS IS THE HEADER -->
+            <!-- <table class="header">
                 <tr>
                     <td>
                         <label for="control_no">Control no.</label>
@@ -24,14 +39,10 @@
                     <td style="padding-left: 75px; padding-right: 30px;">     
                         <h4 class="title">CITY ASSESOR'S OFFICE APPLICATION FORM</h4>
                     </td>
-                    <td>     
-                        FM-CASSO-RD-07 Revision No. 00 <br> April 1, 2022
-                    </td>
                 </tr>
-            </table>
-
+            </table> -->
             <!-- THIS IS THE INFO -->
-            <table class="info">
+            <!-- <table class="info">
                 <tr>
                     <td>    
                         <label for="name-owner">Name of Declared Owner:</label>
@@ -63,18 +74,18 @@
                         <input type="text">
                     </td>
                 </tr>
-            </table>
+            </table> -->
 
-            <p class="agreement">
+            <!-- <p class="agreement">
                 In compiance with RA10173 or the Data Privacy Act of 2012, all information shall be collected, 
                 processed, used, protected, and retained for the purposes of accurately processing your application and for
                 keeping the records of City Assesor's Office complaint with applicable and existing laws and regulations. The
                 Office shall ensure that your personal data will treated with confidentiality. By affixing your signature
                 below, you agree to provide correct information and to participate in any official activities necessary
                 to process your application as explained by the City Government personnel.
-            </p>
+            </p> -->
 
-            <table class="table-signature">
+            <!-- <table class="table-signature">
                 <tr>
                     <td class="signature-input">     
                         <input type="text">
@@ -85,7 +96,7 @@
                         <p>Signature</p>
                     </td>
                 </tr>
-            </table>
+            </table> -->
 
             <!-- THIS IS FOR THE REQUEST TYPE -->
             <table class="req-type-table">
@@ -218,15 +229,21 @@
                 </tr>
             </table>
 
-            <table>
-                <h6>*FOR CERTIFICATE OF NO PROPERTY / PROPERTY HOLDINGS</h6>
-                <p>
-                    (Kindly provide the following information below. <span>For married women maiden name is 
-                        required)
-                    </span>
-                </p>
+            <!-- THIS IS FOR CERTIFICATE PROPERTY HOLD -->
+            <table class="certificate-property-hold">
                 <tr>
-                    <td>NAME</td>
+                    <td colspan="2">
+                        <h6 class="certificate-property-title">*FOR CERTIFICATE OF NO PROPERTY / PROPERTY HOLDINGS</h6>
+                        <p>
+                            (Kindly provide the following information below. <span>For married women maiden name is 
+                                required)
+                            </span>
+                        </p>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td class="name-label">NAME</td>
                     <td class="name-property-hold-input">
                         <input type="text">
                         <div class="name-property-hold-name"> 
@@ -237,7 +254,115 @@
                         
                     </td>
                 </tr>
-                
+                <tr>
+                    <td class="name-spouse-label">NAME OF SPOUSE</td>
+                    <td class="name-spouse-input">
+                        <input type="text">
+                        <div class="name-spouse-name"> 
+                            <p>Full Name</p>
+                            <p>Middle Name</p>
+                            <p>Last Name</p>
+                        </div>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="address-label">ADDRESS</td>
+                    <td class="address-input">
+                        <input type="text">
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
+            <!-- PART 1 TO BE FILLED OUT BY CITY ASSESSOR'S OFFICE -->
+            <h6 class="city-assesor-note">THIS PORTION  IS TO BE FILLED OUT BY CITY ASSESSOR'S OFFICE</h6>
+            <table class="city-assesor-form">
+                <tr style="white-space: nowrap;" class="city-assesor-head">
+                    <td>
+                        <h5>*FOR INSPECTION</h5>
+                    </td>
+                    <td> 
+                        <input class="ndec-input" type="checkbox" id="ndec" name="ndec" value="ndec">
+                        <label class="ndec-label" for="ndec">NDEC</label>
+                    </td>
+                    <td> 
+                        <input class="ra-input" type="checkbox" id="ra" name="ra" value="ra">
+                        <label class="ra-label" for="ra">RA</label>
+                    </td>
+                    <td> 
+                        <input class="cancel-input" type="checkbox" id="cancel" name="cancel" value="cancel">
+                        <label class="cancel-label" for="cancel">Cancellation</label>
+                    </td>
+                    <td> 
+                        <input class="reclass-input" type="checkbox" id="reclass" name="reclass" value="reclass">
+                        <label class="reclass-label" for="reclass">Reclass</label>
+                    </td>
+                    <td> 
+                        <input class="verify-input" type="checkbox" id="verify" name="verify" value="verify">
+                        <label class="verify-label" for="verify">Verification</label>
+                    </td>
+                </tr>
+                <tr class="owner">
+                    <td>
+                        <h6>Owner</h6>
+                    </td>
+                    <td colspan="5">  <input type="text"></td>
+                </tr>
+                <tr class="location">
+                    <td>
+                        <h6>Location</h6>
+                    </td>
+                    <td colspan="5">  <input type="text"></td>
+                </tr>
+                <tr class="pin">
+                    <td>
+                        <h6>PIN</h6>
+                    </td>
+                    <td colspan="5">  <input type="text"></td>
+                </tr>
+                <tr class="tax">
+                    <td>
+                        <h6>Tax Declaration</h6>
+                    </td>
+                    <td colspan="5">  <input type="text"></td>
+                </tr>
+                <tr class="remarks">
+                    <td>
+                        <h6>Remarks</h6>
+                    </td>
+                    <td colspan="5">  <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h6>
+                            Date of Inspection
+                        </h6>
+                    </td>
+                    <td colspan="3" class="date-inspect-input"><input type="text"></td>
+                    <td>Declaration Fee</td>
+                    <td class="declare-fee-input"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"></td>
+                    <td>Inspection Fee</td>
+                    <td class="declare-fee-input"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h6>OR Number</h6>
+                    </td>
+                    <td colspan="3"  class="or-number-input"><input type="text"></td>
+                    <td>Cancellation Fee</td>
+                    <td class="cancel-fee-input"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h6>OR Date</h6>
+                    </td>
+                    <td colspan="3"  class="or-date-input"><input type="text"></td>
+                    <td>Reclassification Fee</td>
+                    <td class="cancel-fee-input"><input type="text"></td>
+                </tr>
             </table>
 
         </section>

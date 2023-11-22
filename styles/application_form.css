@@ -1,7 +1,7 @@
 body {
     background: white; 
     text-align: justify;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 !important;
 }
 .sheet {
@@ -23,20 +23,37 @@ input {
     border-bottom: 1px solid black; /* This will leave only the bottom border */
     width: 150px;
 }
-tr label {
+/* .header tr, td, label, h4{
+    margin: 0;
+    padding: 0;
+} */
+/* THIS IS THE NEW */
+/* .control-number label{
+    margin: 0;
+    padding: 10px;
+}
+.name-owner label{
     white-space: nowrap;
 }
-.title{
+/* tr label {
+    white-space: nowrap;
+} */
+/* .title{
     text-align: center;
     width: 150px;
     margin-right: 30px;
-}
-.input-name-owner input, .input-name-rep input{
-    width: 300px !important; /* Set the desired width in pixels or any other appropriate unit */
-} 
-.agreement{
+} */
+/* .input-name-owner input, .input-name-rep input{
+    width: 300px !important;
+}   */
+/* .agreement{
     font-size: 12px;
+    margin-top: 10px;
     margin-bottom: 0;
+}
+.table-signature tr, td, input, p{
+    margin: 0;
+    padding: 0;
 }
 .signature-input input{
     width: 150px !important;
@@ -51,8 +68,32 @@ tr label {
 .signature-input input, .signature-label p{
     margin: 0;
 }
+.req-type-table tr, th, td, input, p{
+    margin: 0;
+    padding: 0;
+} */
+/* THIS IS FOR THE HEADER */
+.control_number td{
+    white-space: nowrap;
+}
+/* .control_number td{
+    padding-right: 35px;
+} */
+.control_number input, h2{
+margin-left: 10px;
+}
+.control_number input{
+    width: 15t
+    0px;
+}
+.control_number h2{
+    text-align: center;
+    /* padding-left: 50px; */
+}
+
+/* REQUEST TYPE */
 .req-type-table{
-    padding-right: 50px;
+    padding-right: 100px;
     padding-left: 100px;  
     border: 1px solid black; 
 }
@@ -76,11 +117,86 @@ tr label {
 .others input{
     width: 350px;
 }
+/* CERTIFICATE OF PROPERTY HOLD */
+.certificate-property-hold{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black; 
+}
+.certificate-property-hold h6, p, tr, td, p, input, div{
+    margin: 0;
+    padding: 0;
+}
+.certificate-property-title{
+    margin-top: 5px;
+}
+.certificate-property-hold .name-label, .name-spouse-label, .address-label{
+    padding-bottom: 25px;
+    white-space: nowrap;
+}
 .name-property-hold-input input{
-    padding-top: 50px;
-    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 510px;
 }
 .name-property-hold-name{
     display: flex;
-
+    padding-left: 10px;
 }
+.name-property-hold-name p{
+    padding-left: 40px;
+    padding-right: 80px;
+}
+/* THIS IS FOR SPOUSE */
+.name-spouse-input input{ 
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 510px;
+}
+.name-spouse-name{
+    display: flex;
+    padding-left: 10px;
+}
+.name-spouse-name p{
+    padding-left: 40px;
+    padding-right: 80px;
+}
+/* THIS IS FOR ADDRESS */
+.address-input input{ 
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 510px;
+}
+/* THIS IS FOR CITY ASSESSOR */
+.city-assesor-form{
+    border: 1px solid black                                                    ;
+}
+.city-assesor-form tr, td, h6, input{
+    margin: 0;
+    padding: 0;
+}
+.city-assesor-note{
+    margin-top: 5px;
+}
+.city-assesor-form h5, h6{
+    margin-right: 55px;
+}
+.owner, .location, .pin, .tax, .remarks, label{
+    margin-right: 50px;
+}
+.city-assesor-form input[type="checkbox"]{
+    width: 20px;
+}
+.owner, .location, .pin, .tax, .remarks, input{
+    width: 100%;
+}
+.date-inspect-input input{
+    width: 100px;
+}
+.declare-fee-input input, .cancel-fee-input input{
+    width: 70px;
+}
+.or-number-input input, .or-date-input input{
+    width: 75px;
+}
+
