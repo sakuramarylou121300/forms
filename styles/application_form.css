@@ -1,141 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
 body {
     background: white; 
     text-align: justify;
-    font-size: 10px;
-    margin: 0 !important;
+    margin: 0;
 }
-.sheet {
-    padding-top: 10mm;
-    padding-bottom: 10mm;
-    padding-left: 10mm;
-    padding-right: 20mm;
+input{
+    border-bottom: 1px solid #000; /* Bottom border style */
+    border-top: none; /* Hide top border */
+    border-left: none; /* Hide left border */
+    border-right: none; /* Hide right border */
 }
-
 /* MY CODE */
 .container{
     margin: 0 auto !important; /* Add !important if needed */
     width: 825px !important; /* Add !important if needed */
 }
-input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid black; /* This will leave only the bottom border */
+.header table tr td h4{
+    margin: 0;
+    padding: 0;
+}
+.header_title h4{
+    width: 300px;
+    text-align: center;
+}
+.header_date{
     width: 150px;
+    text-align: center;
 }
-/* THIS IS FOR THE HEADER */
-.control_number .title{
-    margin: 0;
-    padding: 0;
-    
-}
-
-/* REQUEST TYPE */
-.req-type-table{
-    padding-right: 100px;
-    padding-left: 100px;  
-    border: 1px solid black; 
-}
-.req-type-table td{
-   margin: 0;
-   padding: 0;
-}
-.req-type-table input{
-    margin-right: 10px;
-}
-.req-type-table td{
-    margin: 0;
-    padding: 0;
-}
-.req-type-table input{
-    width: 70px;
-}
-.others p{
-    display: inline; margin: 0;
-}
-.others input{
-    width: 350px;
-}
-/* CERTIFICATE OF PROPERTY HOLD */
-.certificate-property-hold{
-    margin: 0;
-    padding: 0;
-    border: 1px solid black; 
-}
-.certificate-property-hold h6, p, tr, td, p, input, div{
-    margin: 0;
-    padding: 0;
-}
-.certificate-property-title{
-    margin-top: 5px;
-}
-.certificate-property-hold .name-label, .name-spouse-label, .address-label{
-    padding-bottom: 25px;
+.name_owner h5{
     white-space: nowrap;
 }
-.name-property-hold-input input{
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 510px;
+.control_no_input input{
+    margin-left: 10px;
 }
-.name-property-hold-name{
+.name_owner h5, .date h5{
+    margin-right: 10px;
+}
+.name_owner_input input{
+    width: 300px;
+    margin-right: 30px;
+}
+.agreement{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.signature h5{
+    text-align: center;
+}
+.signature{
     display: flex;
-    padding-left: 10px;
+    justify-content: end;
 }
-.name-property-hold-name p{
-    padding-left: 40px;
-    padding-right: 80px;
-}
-/* THIS IS FOR SPOUSE */
-.name-spouse-input input{ 
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 510px;
-}
-.name-spouse-name{
-    display: flex;
-    padding-left: 10px;
-}
-.name-spouse-name p{
-    padding-left: 40px;
-    padding-right: 80px;
-}
-/* THIS IS FOR ADDRESS */
-.address-input input{ 
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 510px;
-}
-/* THIS IS FOR CITY ASSESSOR */
-.city-assesor-form{
-    border: 1px solid black                                                    ;
-}
-.city-assesor-form tr, td, h6, input{
-    margin: 0;
-    padding: 0;
-}
-.city-assesor-note{
-    margin-top: 5px;
-}
-.city-assesor-form h5, h6{
-    margin-right: 55px;
-}
-.owner, .location, .pin, .tax, .remarks, label{
-    margin-right: 50px;
-}
-.city-assesor-form input[type="checkbox"]{
-    width: 20px;
-}
-.owner, .location, .pin, .tax, .remarks, input{
+.request_type_table{
+    border: 1px solid black;
+    padding-left: 80px;
+    white-space: nowrap;
     width: 100%;
 }
-.date-inspect-input input{
-    width: 100px;
+.request_type_table input{
+    margin-right: 20px;
 }
-.declare-fee-input input, .cancel-fee-input input{
+.others_row{
+    white-space: nowrap;
+}
+.cert_property_table, .city_assessor h5{
+    margin-top: 5px;
+}
+.cert_property_table{
+    border: 1px solid black;
+    width: 100%;
+}
+.cert_property_table input{
+    width: 100%;
+}
+.name_fname, 
+.name_mname,
+.name_lname,
+.name_spouse_fname,
+.name_spouse_mname,
+.name_spouse_lname input{
+    width: 180px;
+}
+/* CITY ASSESSOR */
+.city_assessor_table h5{
+    margin-right: 30px;
+}
+.ndec, .ra{
     width: 70px;
 }
-.or-number-input input, .or-date-input input{
-    width: 75px;
+.cancel{
+    width: 120px;
+}
+.city_assessor_table{
+    margin-top: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+.city_assessor_note{
+    margin-top: 5px;
+}
+.city_assessor_table h5{
+    white-space: nowrap;
+}
+.owner input, .location input, .pin input, .tax input, .remarks input{
+    width: 100%;
+}
+.or_number input, .or_date input, .declare_fee input, .inspect_fee input{
+    width: 80px;
 }
 
+/* THIS IS THE SECOND PAGE */
+.second_page{
+    border: 2px solid black;
+}

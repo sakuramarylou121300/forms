@@ -11,363 +11,470 @@
 </head>
 <body class="A4">
     <div class="container">
-        <section class="sheet">
+        <!-- THIS IS THE TITLE -->
+        <section class="sheet padding-10mm">
+            <!-- THIS IS FOR THE HEADER -->
+            <div class="header">
+                <table>
+                    <tr>
+                        <td class="control_number">Control No.</td>
+                        <td class="control_no_input">
+                            <input type="text">
+                        </td>
+                        <td class="header_title">
+                            <h4>
+                                CITY ASSESSOR'S OFFICE 
+                                APPLICATION FORM</h4>
+                        </td>
+                        <td class="header_date">
+                            FM-CASSO-RD-07
+                            Revision No. 00
+                            April 1, 2022
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-            <table>
-                <tr class="control_number">
-                    <td colspan="1" class="title">Control No.</td>
-                    <td colspan="1"><input type="text"></td>
-                    <td colspan="1">
-                        <h2>
-                            CITY ASSESSOR'S OFFICE <br> APPLICATION FORM
-                        </h2>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td>Name of Declared Owner</td>
-                </tr>
-                
-            </table>
-            <!-- THIS IS THE HEADER -->
-            <!-- <table class="header">
-                <tr>
-                    <td>
-                        <label for="control_no">Control no.</label>
-                    </td>
-                    <td>     
-                        <input type="text">
-                    </td>
-                    <td style="padding-left: 75px; padding-right: 30px;">     
-                        <h4 class="title">CITY ASSESOR'S OFFICE APPLICATION FORM</h4>
-                    </td>
-                </tr>
-            </table> -->
-            <!-- THIS IS THE INFO -->
-            <!-- <table class="info">
-                <tr>
-                    <td>    
-                        <label for="name-owner">Name of Declared Owner:</label>
-                    </td>
-                    <td class="input-name-owner">     
-                        <input type="text">
-                    </td>
+            <div>
+                <table>
+                    <tr>
+                        <td class="name_owner">
+                            <h5>Name of Declared Owner:</h5>
+                        </td>
+                        <td class="name_owner_input">
+                            <input type="text">
+                        </td>
+                        <td class="date">
+                            <h5>Date:</h5>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-                    <td>    
-                        <label for="date">Date:</label>
-                    </td>
-                    <td>     
-                        <input type="text">
-                    </td>
-                </tr>
-               
-                <tr>
-                    <td>    
-                        <label for="name-rep">Name of Representative:</label>
-                    </td>
-                    <td class="input-name-rep">     
-                        <input type="text">
-                    </td>
+            <!-- THIS IS THE AGREEMENT -->
+            <div class="agreement"> 
+                <p>
+                    In compiance with RA10173 or the Data Privacy Act of 2012, all information shall be collected, 
+                    processed, used, protected, and retained for the purposes of accurately processing your application and for
+                    keeping the records of City Assesor's Office complaint with applicable and existing laws and regulations. The
+                    Office shall ensure that your personal data will treated with confidentiality. By affixing your signature
+                    below, you agree to provide correct information and to participate in any official activities necessary
+                    to process your application as explained by the City Government personnel.
+                </p>
+            </div>
 
-                    <td>    
-                        <label for="contact_no">Contact No.:</label>
-                    </td>
-                    <td>     
-                        <input type="text">
-                    </td>
-                </tr>
-            </table> -->
+            <!-- THIS IS FOR THE SIGNATURE -->
+            <div class="signature">
+                <table>
+                    <tr>
+                        <td>               
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>Signature</h5>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-            <!-- <p class="agreement">
-                In compiance with RA10173 or the Data Privacy Act of 2012, all information shall be collected, 
-                processed, used, protected, and retained for the purposes of accurately processing your application and for
-                keeping the records of City Assesor's Office complaint with applicable and existing laws and regulations. The
-                Office shall ensure that your personal data will treated with confidentiality. By affixing your signature
-                below, you agree to provide correct information and to participate in any official activities necessary
-                to process your application as explained by the City Government personnel.
-            </p> -->
+            <!-- THIS IS THE REQUEST TYPE -->
+            <div>
+                <table class="request_type_table">
+                    <tr>
+                        <td>No. of Copies</td>
+                        <td>
+                            <h5>Type of Request</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>Transfer Ownership</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>Declaration of New Buildings and Machineries</td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>Declaration of Re-assessment of Buildings and Machineries</td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>Declaration of Subdivision Lands</td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>Declaration of Consolidation</td>
+                    </tr> 
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Verification of Buildings</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Reclassification of Real Property</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Cancellation of Assessment</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certified Copy of Tax Declaration of Real Property</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Owners Copy of Tax Declaration of Real Property</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certificate of No Improvement</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certificate Copy of Tax Declaration of Real Property</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Owner's Copy of Tax Declaration of Real Property</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certificate of No. Improvement</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certificate of Property Holdings</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certificate of No. Property</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Ceritificate of Cancelled Assessment</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certificate as per Tax Mapping</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>Certified Tax Map</td>
+                    </tr>
+                    <tr class="others_row">
+                        <td> 
+                            <input type="text">
+                        </td>
+                        <td>
+                            Others
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-            <!-- <table class="table-signature">
-                <tr>
-                    <td class="signature-input">     
-                        <input type="text">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="signature-label">     
-                        <p>Signature</p>
-                    </td>
-                </tr>
-            </table> -->
+            <!-- THIS IS FOR CERTIFICATE PROPERTY -->
+            <div>
+                <table  class="cert_property_table">
+                    <tr>
+                        <td colspan="4">
+                            <h5>*FOR CERTIFICATE OF NO PROPERTY/ PROPERTY HOLDINGS</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            (Kindly provide the following information below. <span>For married women maiden name is required.</span>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>NAME</h5>
+                        </td>
+                        <td colspan="3">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="name_row">
+                        <td></td>
+                        <td class="name_fname">First Name</td>
+                        <td class="name_mname">Middle Name</td>
+                        <td class="name_lname">Last Name</td>
+                    </tr>
+                    <tr class="name_spouse_row">
+                        <td>
+                            <h5>NAME OF SPOUSE</h5>
+                        </td>
+                        <td colspan="3">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="name_spouse_fname">First Name</td>
+                        <td class="name_spouse_mname">Middle Name</td>
+                        <td class="name_spouse_lname">Last Name</td>
+                    </tr>
+                    <tr class="address_row">
+                        <td>
+                            <h5>ADDRESS</h5>
+                        </td>
+                        <td colspan="3">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="3">
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-            <!-- THIS IS FOR THE REQUEST TYPE -->
-            <table class="req-type-table">
-                <tr>
-                    <th>No. of Copies</th>
-                    <th>Type of Request</th>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Transfer of Ownership</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Declaration of New Buildings and Machineries</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Declaration of Re-assessment of Buildings and Machineries</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Declaration of Subdivision Lands</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Declaration of Consolidation Lands</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Verification of Buildings</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Reclassification of Real Property</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Cancellation of Assessment</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certified Copy of Tax Declaration of Real Property</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Owners Copy of Tax Declaration of Real Property</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certificate of No Improvement</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certificate Copy of Tax Declaration of Real Property</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Owner's Copy of Tax Declaration of Real Property</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certificate of No. Improvement</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certificate of Property Holdings</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certificate of No. Property</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Ceritificate of Cancelled Assessment</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certificate as per Tax Mapping</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td>Certified Tax Map</td>
-                </tr>
-                <tr>
-                    <td> 
-                        <input type="text">
-                    </td>
-                    <td class="others">
-                        <p>Others</p>
-                        <input type="text">
-                    </td>
-                </tr>
-            </table>
+            <!-- THIS IS FOR CITY ASSESSOR'S OFFICE -->
+            <div>
+                <h5 class="city_assessor_note">THIS PORTION  IS TO BE FILLED OUT BY CITY ASSESSOR'S OFFICE</h5>
+                <table class="city_assessor_table">
+                    <tr class="for_inspection_row">
+                        <td>
+                            <h5>*FOR INSPECTION</h5>
+                        </td>
+                        <td class="ndec"> 
+                            <input class="ndec_input" type="checkbox" id="ndec" name="ndec" value="ndec">
+                            <label class="ndec_label" for="ndec">NDEC</label>
+                        </td>
+                        <td class="ra"> 
+                            <input class="ra-input" type="checkbox" id="ra" name="ra" value="ra">
+                            <label class="ra-label" for="ra">RA</label>
+                        </td>
+                        <td class="cancel"> 
+                            <input class="cancel-input" type="checkbox" id="cancel" name="cancel" value="cancel">
+                            <label class="cancel-label" for="cancel">Cancellation</label>
+                        </td>
+                        <td> 
+                            <input class="reclass-input" type="checkbox" id="reclass" name="reclass" value="reclass">
+                            <label class="reclass-label" for="reclass">Reclass</label>
+                        </td>
+                        <td> 
+                            <input class="verify-input" type="checkbox" id="verify" name="verify" value="verify">
+                            <label class="verify-label" for="verify">Verification</label>
+                        </td>
+                    </tr>
+                    <tr class="owner">
+                        <td>
+                            <h5>Owner</h5>
+                        </td>
+                        <td colspan="5">  
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="location">
+                        <td>
+                            <h5>Location</h5>
+                        </td>
+                        <td colspan="5">  
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="pin">
+                        <td>
+                            <h5>PIN</h5>
+                        </td>
+                        <td colspan="5">  
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="tax">
+                        <td>
+                            <h5>Tax Declaration</h5>
+                        </td>
+                        <td colspan="5">  
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="remarks">
+                        <td>
+                            <h5>Remarks</h5>
+                        </td>
+                        <td colspan="5">  
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Date of Inspection
+                            </h5>
+                        </td>
+                        <td colspan="3" class="date-inspect-input"><input type="text"></td>
+                        <td>
+                            <h5>Declaration Fee</h5></td>
+                        <td class="declare_fee">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td>
+                            <h5>Inspection Fee</h5>
+                        </td>
+                        <td class="inspect_fee">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="or_number">
+                        <td>
+                            <h5>OR Number</h5>
+                        </td>
+                        <td colspan="3" class="or-number-input">
+                            <input type="text">
+                        </td>
+                        <td>
+                            <h5>Cancellation Fee</h5>
+                        </td>
+                        <td class="cancel-fee-input">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr class="or_date">
+                        <td>
+                            <h5>OR Date</h5>
+                        </td>
+                        <td colspan="3" class="or-date-input">
+                            <input type="text">
+                        </td>
+                        <td>
+                            <h5 style="white-space: nowrap;">Reclassification Fee</h5>
+                        </td>
+                        <td class="cancel-fee-input"><input type="text"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
 
-            <!-- THIS IS FOR CERTIFICATE PROPERTY HOLD -->
-            <table class="certificate-property-hold">
-                <tr>
-                    <td colspan="2">
-                        <h6 class="certificate-property-title">*FOR CERTIFICATE OF NO PROPERTY / PROPERTY HOLDINGS</h6>
-                        <p>
-                            (Kindly provide the following information below. <span>For married women maiden name is 
-                                required)
-                            </span>
-                        </p>
-                    </td>
-                </tr>
-               
-                <tr>
-                    <td class="name-label">NAME</td>
-                    <td class="name-property-hold-input">
-                        <input type="text">
-                        <div class="name-property-hold-name"> 
-                            <p>Full Name</p>
-                            <p>Middle Name</p>
-                            <p>Last Name</p>
+        <!-- THIS IS THE NEXT PAGE -->
+        <section class="sheet padding-10mm">
+            <div class="second_page">
+                <!-- A -->
+                <div>
+                    <h5>
+                        A. DECLARATION OF NE/ RE-ASSESSMENT OF BUILDING AND MACHINERIES/ VERIFICATION OF BUILDING
+                    </h5>
+                    <div>
+                        <h6>REQUIREMENT/ PROCESS INPUTS:</h6>
+                        <div>
+                            <input type="checkbox"> 1. Accomplished application form
                         </div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="name-spouse-label">NAME OF SPOUSE</td>
-                    <td class="name-spouse-input">
-                        <input type="text">
-                        <div class="name-spouse-name"> 
-                            <p>Full Name</p>
-                            <p>Middle Name</p>
-                            <p>Last Name</p>
+                        <div>
+                            <input type="checkbox"> 2. Proof of legitimacy of the transaction
+                            <div>
+                                2.a for Real Property Owner:
+                            </div>
+                            <div>
+                                <input type="checkbox"> Photocopy of Valid ID
+                            </div>
+                            <div>
+                                2.b for Authorized Representative:
+                            </div>
+                            <div>
+                                <input type="checkbox"> Authorization letter duly signed by the Real Property Owner with photocopy of the owner and representative's Valid ID
+                            </div>
                         </div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td class="address-label">ADDRESS</td>
-                    <td class="address-input">
-                        <input type="text">
-                        <input type="text">
-                    </td>
-                </tr>
-            </table>
-            <!-- PART 1 TO BE FILLED OUT BY CITY ASSESSOR'S OFFICE -->
-            <h6 class="city-assesor-note">THIS PORTION  IS TO BE FILLED OUT BY CITY ASSESSOR'S OFFICE</h6>
-            <table class="city-assesor-form">
-                <tr style="white-space: nowrap;" class="city-assesor-head">
-                    <td>
-                        <h5>*FOR INSPECTION</h5>
-                    </td>
-                    <td> 
-                        <input class="ndec-input" type="checkbox" id="ndec" name="ndec" value="ndec">
-                        <label class="ndec-label" for="ndec">NDEC</label>
-                    </td>
-                    <td> 
-                        <input class="ra-input" type="checkbox" id="ra" name="ra" value="ra">
-                        <label class="ra-label" for="ra">RA</label>
-                    </td>
-                    <td> 
-                        <input class="cancel-input" type="checkbox" id="cancel" name="cancel" value="cancel">
-                        <label class="cancel-label" for="cancel">Cancellation</label>
-                    </td>
-                    <td> 
-                        <input class="reclass-input" type="checkbox" id="reclass" name="reclass" value="reclass">
-                        <label class="reclass-label" for="reclass">Reclass</label>
-                    </td>
-                    <td> 
-                        <input class="verify-input" type="checkbox" id="verify" name="verify" value="verify">
-                        <label class="verify-label" for="verify">Verification</label>
-                    </td>
-                </tr>
-                <tr class="owner">
-                    <td>
-                        <h6>Owner</h6>
-                    </td>
-                    <td colspan="5">  <input type="text"></td>
-                </tr>
-                <tr class="location">
-                    <td>
-                        <h6>Location</h6>
-                    </td>
-                    <td colspan="5">  <input type="text"></td>
-                </tr>
-                <tr class="pin">
-                    <td>
-                        <h6>PIN</h6>
-                    </td>
-                    <td colspan="5">  <input type="text"></td>
-                </tr>
-                <tr class="tax">
-                    <td>
-                        <h6>Tax Declaration</h6>
-                    </td>
-                    <td colspan="5">  <input type="text"></td>
-                </tr>
-                <tr class="remarks">
-                    <td>
-                        <h6>Remarks</h6>
-                    </td>
-                    <td colspan="5">  <input type="text"></td>
-                </tr>
-                <tr>
-                    <td>
-                        <h6>
-                            Date of Inspection
-                        </h6>
-                    </td>
-                    <td colspan="3" class="date-inspect-input"><input type="text"></td>
-                    <td>Declaration Fee</td>
-                    <td class="declare-fee-input"><input type="text"></td>
-                </tr>
-                <tr>
-                    <td colspan="4"></td>
-                    <td>Inspection Fee</td>
-                    <td class="declare-fee-input"><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>
-                        <h6>OR Number</h6>
-                    </td>
-                    <td colspan="3"  class="or-number-input"><input type="text"></td>
-                    <td>Cancellation Fee</td>
-                    <td class="cancel-fee-input"><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>
-                        <h6>OR Date</h6>
-                    </td>
-                    <td colspan="3"  class="or-date-input"><input type="text"></td>
-                    <td>Reclassification Fee</td>
-                    <td class="cancel-fee-input"><input type="text"></td>
-                </tr>
-            </table>
+                    </div>
 
+                    <div>
+                        <h6>FOR BUILDING</h6>
+                        <div>
+                            <input type="checkbox">1. Photocopy of Real Property Tax Receipt for the Current Year (for Land)/ Tax Clearance
+                        </div>
+                        <div>
+                            <input type="checkbox">2. Original Copy of Building Plans (if any)
+                        </div>
+                        <div>
+                            <input type="checkbox">3. Photocopy of Transfer Certificate of Title (TCT) (if there is a need to verify further the property's location vs.the Real Property Tax Receipt Presented)
+                        </div>
+                        <div>
+                            <input type="checkbox">4. Photocopy of Vicinity Map/Building/Occupacy Permit (if any or necessary i.e.,the building owner's name is different from the lot owner's name)
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h6>FOR MACHINERIES:</h6>
+                        <div>
+                            <input type="checkbox">1. Notarized Sworn Statement of Ownership
+                        </div>
+                        <div>
+                            <input type="checkbox">2. Official Receipt of the machineries upon purchase (if need)
+                        </div>
+                        <div>
+                            <input type="checkbox">3. Itemized List of Machineries (if applicable)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- B -->
+                <div>
+                    <h5>
+                        B. TRANSFER OF OWNERSHIP
+                    </h5>
+                    <h6>
+                        REQUIREMENT/S PROCESS INPUTS:
+                    </h6>
+                    <div>
+                        <input type="checkbox">1. Accomplished application form
+                    </div>
+                </div>
+              
+            </div>
         </section>
     </div>
+    
+</body>
+</html>
+            
 </body>
 </html>

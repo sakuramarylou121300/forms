@@ -1,0 +1,21 @@
+body {
+    background: white; 
+    font-size: 10px;
+    margin: 0 !important;
+}
+.sheet {
+    padding-top: 10mm;
+    padding-bottom: 10mm;
+    padding-left: 10mm;
+    padding-right: 20mm;
+}
+
+/* MY CODE */
+.container{
+    margin: 0 auto !important; 
+    width: 825px !important; 
+}
+.container td, .container input, .container h4{
+    margin: 0;
+    padding: 0;
+}
