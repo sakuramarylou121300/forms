@@ -29,7 +29,6 @@ th{
 td{
     margin-right:200px;
 }
-/* .certificate-container {
-    overflow: auto; 
-    page-break-after: always; 
-} */
+.city_assessor, .local_assess_officer, .valid_seal{
+    line-height: 0.5;
+}
