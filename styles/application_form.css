@@ -55,6 +55,7 @@ input{
     display: flex;
     justify-content: end;
 }
+/* THIS IS THE REQUES */
 .request_type_table{
     border: 1px solid black;
     padding-left: 80px;
@@ -62,7 +63,8 @@ input{
     width: 100%;
 }
 .request_type_table input{
-    margin-right: 20px;
+    margin-right: 15px;
+    width: 100px;
 }
 .others_row{
     white-space: nowrap;
@@ -116,4 +118,35 @@ input{
 /* THIS IS THE SECOND PAGE */
 .second_page{
     border: 2px solid black;
+}
+.second_page{
+    font-size: 10px;
+}
+.second_page h5{
+    padding-top: 4px;
+}
+.second_page h6{
+    padding: 4px 4px 4px 10px;
+}
+.a_req_1 p, .a_req_2 p, .sub p, .a_build p{
+    display: inline;
+}
+.main_sub p{
+    padding-left: 30px;
+}
+.sub p{
+    padding-left: 50px;
+}
+.d_2_req{
+    padding-left: 15px;
+}
+.second_page{
+    line-height: 0.8;
+}
+.second_page input[type="checkbox"], h5, h6 {
+    margin-left: 5px;
+}
+.span_note{
+    font-weight: bold;
+    margin-left: 20px;
 }
