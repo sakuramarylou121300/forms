@@ -12,6 +12,7 @@ body {
 .title{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 .barangay, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
