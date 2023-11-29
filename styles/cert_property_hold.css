@@ -38,3 +38,6 @@ th{
 td{
     margin-right:200px;
 }
+.city_assessor, .local_assess_officer, .valid_seal{
+    line-height: 0.5;
+}
