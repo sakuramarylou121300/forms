@@ -1,0 +1,45 @@
+
+* {
+    font-size: 12px;
+    line-height: 0.5;
+  }body {
+    background: white; 
+}
+/* MY CODE */
+.container{
+    margin: 0 auto !important; /* Add !important if needed */
+    width: 825px !important; /* Add !important if needed */
+}
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.header_2, .update_code {
+    display: flex;
+    justify-content: space-between;
+}
+.update_code input{
+    width: 50px;
+    margin-right: 50px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.update_code {
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table td, tr{
+    padding: 5px;
+}
+.first_column{
+    width: 200px;
+}
+.table1_col{
+    width: 70px;
+    font-weight: bold;
+    text-align: center;
+}
