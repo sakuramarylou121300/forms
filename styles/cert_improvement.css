@@ -20,9 +20,12 @@ body {
 .content{
     line-height: 30px;
 }
-.table-content{
+.valid_seal{
     margin-top: 100px;
 }
 td{
     margin-right:200px;
+}
+.city_assessor, .local_assess_officer{
+    line-height: 0.5;
 }
