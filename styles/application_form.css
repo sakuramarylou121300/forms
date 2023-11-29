@@ -14,6 +14,21 @@ input{
     border-left: none; /* Hide left border */
     border-right: none; /* Hide right border */
 }
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.20em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  }
+input[type="checkbox"] {
+    vertical-align: middle;
+}
 /* MY CODE */
 .container{
     margin: 0 auto !important; /* Add !important if needed */
@@ -150,3 +165,4 @@ input{
     font-weight: bold;
     margin-left: 20px;
 }
+/*  */
