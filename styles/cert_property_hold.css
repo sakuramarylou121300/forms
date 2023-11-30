@@ -1,6 +1,7 @@
 body {
     background: white; 
     text-align: justify;
+    letter-spacing: 0.8px;
 }
 
 /* MY CODE */
@@ -40,4 +41,7 @@ td{
 }
 .city_assessor, .local_assess_officer, .valid_seal{
     line-height: 0.5;
+}
+.table-content{
+    letter-spacing: -1px;
 }
