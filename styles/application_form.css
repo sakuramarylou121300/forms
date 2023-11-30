@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
+    letter-spacing: 0.1px;
   }
 body {
     background: white; 
@@ -133,6 +134,7 @@ input[type="checkbox"] {
 /* THIS IS THE SECOND PAGE */
 .second_page{
     border: 2px solid black;
+    padding-left: 2px;
 }
 .second_page{
     font-size: 10px;
@@ -150,7 +152,7 @@ input[type="checkbox"] {
     padding-left: 30px;
 }
 .sub p{
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .d_2_req{
     padding-left: 15px;
@@ -165,4 +167,3 @@ input[type="checkbox"] {
     font-weight: bold;
     margin-left: 20px;
 }
-/*  */
