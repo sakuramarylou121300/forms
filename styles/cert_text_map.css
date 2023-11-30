@@ -1,12 +1,9 @@
 body {
     background: white; 
     text-align: justify;
-}
-
-/* MY CODE */
-.container{
     margin: 0 auto !important; /* Add !important if needed */
     width: 825px !important; /* Add !important if needed */
+    letter-spacing: 1.6px;
 }
 .title{
     display: flex;
@@ -31,4 +28,7 @@ td{
 }
 .city_assessor, .local_assess_officer, .valid_seal{
     line-height: 0.5;
+}
+.tax_table tr, td{
+    letter-spacing: -1px;
 }
