@@ -1,8 +1,15 @@
+/* *{
+    font-size: 14px;
+  } */
+:root {
+    --paragraph_space: 35px; /* Define a variable for a color */ 
+}
+/*  */
 body {
     background: white; 
     text-align: justify;
     margin: 0;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 /* MY CODE */
@@ -13,7 +20,11 @@ body {
 .title{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 140px;
+    margin-bottom: var(--paragraph_space);
+}
+.greet{
+    margin-bottom: var(--paragraph_space);
 }
 .barangay, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
@@ -22,11 +33,24 @@ body {
     line-height: 30px;
 }
 .valid_seal{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 td{
     margin-right:200px;
 }
 .city_assessor, .local_assess_officer, .valid_seal{
-    line-height: 0.5;
+    line-height: 0.2;
+}
+.city_assessor{
+    margin-bottom: var(--paragraph_space);
+}
+.prepared_by{
+    margin-bottom: var(--paragraph_space);
+}
+.col_space{
+    padding-right: 20px;
+}
+.last_part p, td{
+    font-size: 12px;
+    letter-spacing: 1px;
 }

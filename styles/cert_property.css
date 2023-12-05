@@ -2,27 +2,55 @@ body {
     background: white; 
     text-align: justify;
     letter-spacing: 0.3px;
+    /* line-height: 25px; */
 }
-
+:root {
+    --paragraph_space: px; /* Define a variable for a color */ 
+} 
 /* MY CODE */
 .container{
     margin: 0 auto !important; /* Add !important if needed */
     width: 825px !important; /* Add !important if needed */
 }
+.first_part{
+    line-height: 25px;
+}
 .title{
     display: flex;
     justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 35px;
+}
+.greet, .content{
+    margin: 0;
+    padding: 0;
+}
+.greet{
+    margin-bottom: 10px;
+}
+.second_paragraph{
+    margin-bottom: 70px;
+}
+.local_assess_officer{
+    margin-top: 30px;
+}
+.valid_seal{
     margin-top: 40px;
+    margin-bottom: 0; 
 }
 .poblacion, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
-}
-.content{
-    line-height: 30px;
 }
 td{
     margin-right:200px;
 }
 .city_assessor, .local_assess_officer,.valid_seal{
     line-height: 0.5;
+}
+.col_space{
+    padding-right: 20px;
+}
+.last_part p, td{
+    font-size: 12px;
+    letter-spacing: 1px;
 }

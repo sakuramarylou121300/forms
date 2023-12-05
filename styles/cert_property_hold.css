@@ -1,9 +1,17 @@
+*{
+    font-size: 14px;
+}
+:root {
+    --paragraph_space: 35px; /* Define a variable for a color */ 
+} 
 body {
     background: white; 
     text-align: justify;
     letter-spacing: 0.8px;
 }
-
+:root {
+    --paragraph_space: 35px; /* Define a variable for a color */ 
+}
 /* MY CODE */
 .container{
     margin: 0 auto !important; /* Add !important if needed */
@@ -12,7 +20,7 @@ body {
 .title{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: var(--paragraph_space)
 }
 .poblacion, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
