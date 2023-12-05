@@ -1,5 +1,5 @@
 * {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 0.5;
 }
 body {
@@ -53,71 +53,6 @@ tr {
   font-weight: bold;
   text-align: center;
 }
-/**/
-.sketch-label {
-  position: absolute;
-  top: 4px;
-  left: 4px;
-}
-.sketch-cell {
-  position: relative;
-  padding-left: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  justify-content: center;
-}
-.fourth_tbody {
-  text-align: center;
-}
-
-.header_3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align text to the start */
-}
-
-.header_3 p {
-  flex: 1;
-  font-weight: bold;
-  text-align: start; /* Align text to the start */
-}
-
-.apraised_by {
-  display: flex;
-  text-align: center;
-}
-.apraised_by div {
-  flex: 1;
-}
-
-.grid-container {
-  padding-top: 10px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
-  gap: 10px; /* Gap between grid items */
-}
-.grid-item {
-  font-size: 10px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.label_size {
-  font-size: 9px;
-}
-.center-text-input {
-  text-align: center;
-}
-
-.memoranda {
-  font-weight: bold;
-  margin-bottom: 20px; /* Adding margin bottom to separate from the next section */
-}
-
-.memoranda p {
-  margin: 5px 0;
-  font-weight: lighter;
-  word-wrap: break-word;
-}
 
 tr td input[type="text"] {
   width: 100%;
@@ -126,5 +61,15 @@ tr td input[type="text"] {
   -moz-box-sizing: border-box;
   background: transparent !important;
   border: 0px;
-  font-size: 8px;
+  font-size: 10px;
+}
+
+/*PIN Line*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 4fr 7fr;
+}
+
+.grid-item {
+  text-align: left;
 }
