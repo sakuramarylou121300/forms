@@ -1,0 +1,130 @@
+* {
+  font-size: 12px;
+  line-height: 0.5;
+}
+body {
+  background: white;
+}
+
+input {
+  border-bottom: 1px solid #000; /* Bottom border style */
+  border-top: none; /* Hide top border */
+  border-left: none; /* Hide left border */
+  border-right: none; /* Hide right border */
+}
+
+/* MY CODE */
+.container {
+  margin: 0 auto !important; /* Add !important if needed */
+  width: 825px !important; /* Add !important if needed */
+}
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.header_2,
+.update_code {
+  display: flex;
+  justify-content: space-between;
+}
+.update_code input {
+  width: 50px;
+  margin-right: 50px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+.update_code {
+  align-items: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table td,
+tr {
+  padding: 5px;
+}
+.first_column {
+  width: 200px;
+}
+.table1_col {
+  width: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+/**/
+.sketch-label {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.sketch-cell {
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.fourth_tbody {
+  text-align: center;
+}
+
+.header_3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align text to the start */
+}
+
+.header_3 p {
+  flex: 1;
+  font-weight: bold;
+  text-align: start; /* Align text to the start */
+}
+
+.apraised_by {
+  display: flex;
+  text-align: center;
+}
+.apraised_by div {
+  flex: 1;
+}
+
+.grid-container {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Gap between grid items */
+}
+.grid-item {
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.label_size {
+  font-size: 9px;
+}
+.center-text-input {
+  text-align: center;
+}
+
+.memoranda {
+  font-weight: bold;
+  margin-bottom: 20px; /* Adding margin bottom to separate from the next section */
+}
+
+.memoranda p {
+  margin: 5px 0;
+  font-weight: lighter;
+  word-wrap: break-word;
+}
+
+tr td input[type='text'] {
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: transparent !important;
+  border: 0px;
+  font-size: 8px;
+}

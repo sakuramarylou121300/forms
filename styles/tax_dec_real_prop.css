@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  background: white;
+  text-align: justify;
+  margin: 0;
+}
+input {
+  border-bottom: 1px solid #000; /* Bottom border style */
+  border-top: none; /* Hide top border */
+  border-left: none; /* Hide left border */
+  border-right: none; /* Hide right border */
+}
+
+/* Paper */
+.container {
+  position: relative;
+  margin: 0 auto !important;
+  width: 825px !important;
+}
+
+.header {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.text-align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-align h5:last-child {
+  margin-right: 275px; /* Pushes the last h5 element (City Ordinance) to the right */
+}
+
+.content_line {
+  position: relative;
+  border-color: #000;
+  border: 2px solid;
+  padding: 10px;
+  /* Ensure the container allows relative positioning */
+  position: relative;
+}
+
+.pad {
+  padding-top: 10px;
+}
+
+.owner_input {
+  width: 300px;
+}
+
+.address_input {
+  width: 300px;
+}
+
+/*Address Line*/
+.grid-container {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Gap between grid items */
+}
+.grid-item {
+  font-size: 13px;
+  text-align: center;
+  padding: 10px; /* Padding for content */
+}
+
+.grid-item-location {
+  font-size: 10px;
+}
+.center-text-input {
+  text-align: center;
+}
+
+/*No. Line*/
+.grid-container-2 {
+  padding-top: 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Gap between grid items */
+}
+
+.inner_col {
+  padding-top: 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
+  gap: 1px; /* Gap between grid items */
+  font-size: small;
+  justify-items: end;
+}
+.column {
+  padding: 5px; /* Padding for content */
+  justify-content: space-around;
+}
+
+/*TABLE*/
+.table-div {
+  border: 1px solid black;
+}
+.table-content {
+  padding-top: 1px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Gap between grid items */
+}
+.table-column {
+  padding: 5px; /* Padding for content */
+  text-align: center;
+  text-decoration: underline;
+}
+.table-head {
+  font-size: 10px;
+}
+.table-head-assessed {
+  font-size: 7px;
+}
+.table-content input {
+  width: calc(100% - 1px); /* Adjust the width to fit the container */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 5px; /* Adjust padding as needed */
+  font-size: 12px; /* Modify font size as needed */
+}
+.table-total-words {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Total*/
+.remark-div {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Gap between grid items */
+  font-size: 11px;
+}
+.grid-item-qtr {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Gap between grid items */
+}
+.total-asssessed-val {
+  width: 400px;
+}
+
+.grid-container-appro {
+  padding-top: 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* First column smaller than the second column */
+}
+.qtr {
+  width: 50px;
+  text-align: center;
+}
+
+.grid-container-3col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* First column smaller than the other two */
+  gap: 10px; /* Gap between grid items */
+}
+
+.memoranda {
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 150px;
+}
+
+.traditional-vertical-writing {
+  writing-mode: vertical-rl;
+  position: absolute;
+  left: -20px; /* Adjust the distance from the left side as needed */
+  top: 50%; /* Adjust the vertical position as needed */
+  transform: translateY(-50%) rotate(-180deg); /* Rotate and align vertically */
+  white-space: nowrap; /* Prevent wrapping */
+  font-size: 14px; /* Adjust font size as needed */
+}
