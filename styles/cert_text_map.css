@@ -1,34 +1,81 @@
+*{
+    line-height: 0.2;
+}
 body {
     background: white; 
     text-align: justify;
     margin: 0 auto !important; /* Add !important if needed */
     width: 825px !important; /* Add !important if needed */
-    letter-spacing: 1.6px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
 }
 .title{
     display: flex;
     justify-content: center;
-    margin: 40px;
+    margin-bottom: 50px;
+    margin-top: 140px;
+}
+.greet{
+    margin-bottom: 35px;
 }
 .barangay, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
 }
-.content{
+.content, .content_2, .content_3{
     line-height: 30px;
+}
+.content_2, .content_3{
+    margin: 0;
+}
+.content_2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .table-content{
     text-align: center;
     border-top: 1px solid black;
+    font-size: 11.5px;
+    font-family: Arial;
+}
+.table-content th{
+    padding-bottom: 5px;
 }
 th{
     border-bottom: 1px solid black;
+    font-weight: 100;
 }
 td{
     margin-right:200px;
 }
+.table_content_row td {
+    width: 80px;
+    word-wrap: break-word;
+}
 .city_assessor, .local_assess_officer, .valid_seal{
     line-height: 0.5;
 }
+.city_assessor{
+    margin-top: 50px;
+}
+.city-assesor-title{
+    margin-bottom: 40px;
+}
+.prepared_by{
+    margin-bottom: 35px;
+}
+.local_assess_officer{
+    margin-bottom: 85px;
+}
 .tax_table tr, td{
     letter-spacing: -1px;
+}
+.col_space{
+    padding-right: 20px;
+}
+.last_part p, .last_part td{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: start;
+    text-decoration: none;
+    line-height: 10px;
 }
