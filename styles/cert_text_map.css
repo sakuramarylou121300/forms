@@ -16,7 +16,7 @@ body {
     margin-top: 140px;
 }
 .greet{
-    margin-bottom: 35px;
+    margin-bottom: 32px;
 }
 .barangay, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
@@ -40,6 +40,13 @@ body {
 .table-content th{
     padding-bottom: 5px;
 }
+.table_content td{
+    word-wrap: break-word;
+    min-width: 80px;
+    max-width: 80px; 
+    line-height: 15px;
+    vertical-align: text-top;
+}
 th{
     border-bottom: 1px solid black;
     font-weight: 100;
@@ -47,15 +54,15 @@ th{
 td{
     margin-right:200px;
 }
-.table_content_row td {
-    width: 80px;
+/* .table_content_row td {
+    max-width: 500px;
     word-wrap: break-word;
-}
+} */
 .city_assessor, .local_assess_officer, .valid_seal{
     line-height: 0.5;
 }
 .city_assessor{
-    margin-top: 50px;
+    margin-top: 65px;
 }
 .city-assesor-title{
     margin-bottom: 40px;
