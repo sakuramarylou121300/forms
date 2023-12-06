@@ -1,5 +1,5 @@
 * {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 0.5;
 }
 body {
@@ -72,4 +72,16 @@ tr td input[type="text"] {
 
 .grid-item {
   text-align: left;
+}
+
+.header_3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align text to the start */
+}
+
+.header_3 p {
+  flex: 1;
+  font-weight: bold;
+  text-align: start; /* Align text to the start */
 }
