@@ -9,7 +9,7 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 5px;
 }
-.title{
+.title{ 
     display: flex;
     justify-content: center;
     margin-bottom: 50px;

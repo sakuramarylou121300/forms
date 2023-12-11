@@ -2,6 +2,7 @@
 * {
     font-size: 12px;
     line-height: 0.5;
+    font-family: sans-serif;
   }body {
     background: white; 
 }
@@ -10,6 +11,14 @@
     margin: 0 auto !important; /* Add !important if needed */
     width: 825px !important; /* Add !important if needed */
 }
+.header_1{
+    margin-top: 30px;
+}
+div, .header_1 p, .header_2 div,  .header_2n h5, .header_2 input{
+    margin: 0;
+    padding: 0;
+}
+
 .header_1 {
     display: flex;
     justify-content: space-between;
@@ -18,8 +27,11 @@
     display: flex;
     justify-content: space-between;
 }
+.header_2{
+    font-weight: bold;
+}
 .update_code input{
-    width: 50px;
+    width: 30px;
     margin-right: 50px;
     border-top: 0;
     border-right: 0;
@@ -31,15 +43,36 @@
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 0;
 }
 table td, tr{
     padding: 5px;
 }
 .first_column{
-    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
 }
 .table1_col{
-    width: 70px;
     font-weight: bold;
     text-align: center;
+}
+.pin, .table1_col{
+    min-width: 50px;
+    max-width: 50px;
+}
+.pin{
+    padding: 0;
+}
+/* PROPERTY LOCATION */
+.property_loc{
+    margin: 2px;
+    padding: 2px;
+}
+.second_table td{
+    line-height: 12px;
+    text-align: center;
+    vertical-align: top;
+    padding: 0;
+    min-width: 40px;
+    max-width: 40px;
 }

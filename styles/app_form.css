@@ -1,0 +1,98 @@
+@page { 
+    size: legal 
+}
+*{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.sheet{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+.control_number{
+    text-wrap: nowrap;
+}
+.control_number, .name_owner{
+    padding-right: 10px;
+}
+input{
+    border-bottom: 1px solid #000; /* Bottom border style */
+    border-top: none; /* Hide top border */
+    border-left: none; /* Hide left border */
+    border-right: none; /* Hide right border */
+}
+.header_title h4{
+    width: 200px;
+    text-align: center;
+    margin-left: 80px;
+}
+.header_date{
+    width: 150px;
+    padding-left: 80px;
+}
+/* THIS IS FOR THE INFORMATION */
+.name_owner_input input, .name_representative_input input {
+    width: 300px;
+}
+.date, .contact_no{
+    padding-left: 40px;
+    text-wrap: nowrap;
+}
+.date{
+    text-align: end;
+}
+.rep_contact td{
+    padding-top: 10px !important;
+}
+.agreement{
+    padding-top: 20px;
+    text-align: justify;
+}
+.signature{
+    display: flex;
+    justify-content: end;
+}
+.signature h5{
+    text-align: center;
+}
+.request_type_table{
+    border: 1px solid black;
+    padding-left: 60px;
+    white-space: nowrap;
+    width: 100%;
+}
+.request_type_table td{
+    font-size: 14px !important;
+}
+.request_type_table input{
+    width: 70px;
+}
+.type_req{
+    margin-left: 15px;
+}
+.others_row{
+    white-space: nowrap;
+}
+.others_input input{
+    width: 500px;
+}
+.cert_property_table{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+.cert_property_table td{
+    padding-bottom: 5px;
+}
+.cert_property_table_instruction td{
+    padding-bottom: 20px;
+}
+.cert_property_table input{
+    width: 100%;
+}
+.address_row input{
+    padding-top: 8px;
+}

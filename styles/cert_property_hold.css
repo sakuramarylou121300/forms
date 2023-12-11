@@ -1,5 +1,5 @@
 *{
-    font-size: 14px;
+    line-height: 30px;
 }
 :root {
     --paragraph_space: 35px; /* Define a variable for a color */ 
@@ -10,7 +10,7 @@ body {
     letter-spacing: 0.8px;
 }
 :root {
-    --paragraph_space: 35px; /* Define a variable for a color */ 
+    --paragraph_space: 140px; /* Define a variable for a color */ 
 }
 /* MY CODE */
 .container{
@@ -20,23 +20,60 @@ body {
 .title{
     display: flex;
     justify-content: center;
-    margin-top: var(--paragraph_space)
+    margin-top: var(--paragraph_space);
 }
 .poblacion, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
 }
+.greet, .content{
+    padding: 0;
+    margin: 0;
+}
 .content{
-    line-height: 30px;
+    line-height: 30px;  
+    margin-bottom: 25px;
 }
 td{
     margin-right:200px;
 }
-.table-content {
-    width: 100%;
-    font-size: 10px;
+.table-content{
     text-align: center;
+    border-top: 1px solid black;
+    font-size: 10px;
+    font-family: Arial;
 }
-
+.table-content .arp_no{
+    min-width: 60px;
+    max-width: 60px;
+    word-wrap: break-word;
+    line-height: 15px;
+    vertical-align: text-top;
+}
+.table-content .pin, .table-content .location ,.table-content .market_val, .table-content .assessed_val,
+.table-content .lot_blk, .table-content .seventh-col, .table-content .area{
+    min-width: 68px;
+    max-width: 68px;
+    word-wrap: break-word;
+    line-height: 15px;
+    vertical-align: text-top;
+}
+.table-content .k{
+    min-width: 5px;
+    max-width: 5px;
+}
+.table-content .classif{
+    min-width: 35px;
+    max-width: 35px;
+}
+.table-content .cy{
+    min-width: 40px;
+    max-width: 40px;
+}
+.table-content th{
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+}
 .table-content th, .table-content td {
     /* width: 100%; */
     vertical-align: top; /* Align content at the top */
@@ -47,8 +84,25 @@ th{
 td{
     margin-right:200px;
 }
-.city_assessor, .local_assess_officer, .valid_seal{
+/* .city_assessor, .local_assess_officer, .valid_seal{
     line-height: 0.5;
+} */
+.city_assessor{
+    margin-top: 50px;
+}
+.city_assessor p, .local_assess_officer p{
+    line-height: 0.2;
+}
+.local_assess_officer{
+    margin-top: 25px;
+    margin-bottom: 38px;
+}
+.last_part p, .last_part td{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: start;
+    text-decoration: none;
+    line-height: 10px;
 }
 .table-content{
     letter-spacing: -1px;

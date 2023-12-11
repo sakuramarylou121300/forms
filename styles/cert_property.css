@@ -4,9 +4,9 @@ body {
     letter-spacing: 0.3px;
     /* line-height: 25px; */
 }
-:root {
-    --paragraph_space: px; /* Define a variable for a color */ 
-} 
+/* :root {
+    --paragraph_space: px; 
+}  */
 /* MY CODE */
 .container{
     margin: 0 auto !important; /* Add !important if needed */
