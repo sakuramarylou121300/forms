@@ -1,78 +1,85 @@
-
-* {
+*{
     font-size: 12px;
-    line-height: 0.5;
-    font-family: sans-serif;
-  }body {
-    background: white; 
-}
-/* MY CODE */
-.container{
-    margin: 0 auto !important; /* Add !important if needed */
-    width: 825px !important; /* Add !important if needed */
-}
-.header_1{
-    margin-top: 30px;
-}
-div, .header_1 p, .header_2 div,  .header_2n h5, .header_2 input{
+    font-family: Calibri;
     margin: 0;
     padding: 0;
+    vertical-align: top;
 }
-
-.header_1 {
+input{
+    border-bottom: 1px solid #000; /* Bottom border style */
+    border-top: none; /* Hide top border */
+    border-left: none; /* Hide left border */
+    border-right: none; /* Hide right border */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.container{
+    margin: 0 auto !important; 
+    width: 825px !important; 
+}
+.sheet{
+    padding-left: 15px;
+    padding-right: 40px;
+    padding-top: 45px;
+}
+.header_1{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3px;
 }
-.header_2, .update_code {
+.header_2, .update_code{
     display: flex;
-    justify-content: space-between;
-}
-.header_2{
     font-weight: bold;
 }
 .update_code input{
     width: 30px;
-    margin-right: 50px;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
 }
-.update_code {
-    align-items: center;
+.update_code p{
+    margin-left: 220px;
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0;
+.arp_no{
+    min-width: 300px;
+    max-width: 300px;
 }
-table td, tr{
-    padding: 5px;
-}
-.first_column{
-    min-width: 260px;
-    max-width: 260px;
-}
-.pin_no, .pin_year, .pin_empty{
-    min-width: 50px;
-    font-weight: bold;
-    text-align: center;
-}
-.owner_input{
-    padding-left: 30px;
-}
-/* PROPERTY LOCATION */
-.property_loc{
-    margin: 2px;
-    padding: 2px;
-}
-.second_table td{
-    line-height: 12px;
-    text-align: center;
-    vertical-align: top;
+.first_table td{
     padding: 0;
-    min-width: 40px;
-    max-width: 40px;
 }
-.pump_equipment{
-    vertical-align: mid;
+.pin, .pin_no, .pin_year, .pin_empty, .land_pin_no, .land_owner_input,
+.build_pin_no, .build_b01{
+    min-width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.pin{
+    text-align: start;
+    font-weight: lighter;
+}
+.owner{
+    vertical-align: center;
+    margin-left: 100px;
+}
+.address td, .contact_no td{
+    border-right: none;
+}
+.address_input{
+    border-left: none !important;
+}
+.address_input p{
+    width: 200px;
+}
+.land_owner{
+    display: flex;
+}
+.land_owner_input{
+    margin-left: 20px;
+    width: 200px;
+    line-height: 1;
 }
