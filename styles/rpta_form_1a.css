@@ -1,6 +1,8 @@
 * {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 0.5;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
 }
 body {
   background: white;
@@ -41,18 +43,12 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 table td,
 tr {
-  padding: 5px;
+  padding: 8px;
 }
-.first_column {
-  width: 200px;
-}
-.table1_col {
-  width: 70px;
-  font-weight: bold;
-  text-align: center;
-}
+
 
 tr td input[type="text"] {
   width: 100%;
@@ -70,9 +66,6 @@ tr td input[type="text"] {
   grid-template-columns: 4fr 7fr;
 }
 
-.grid-item {
-  text-align: left;
-}
 
 .header_3 {
   display: flex;
@@ -88,15 +81,33 @@ tr td input[type="text"] {
 
 .memoranda {
   margin-top: 20px;
-  padding: 10px;
+  padding: 10px;  
 }
 
 .memoranda p {
-  font-size: 16px;
   line-height: 1.5;
   text-align: justify;
 }
 
 .memoranda b {
   font-weight: bold;
+}
+
+.building-sketch-text {
+  vertical-align: top;
+  text-align: left;
+}
+
+.first_table img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  padding-top: 50px;
+}
+span{
+  font-weight: bold;
+}
+.text-centered{
+  text-align: center;
 }
