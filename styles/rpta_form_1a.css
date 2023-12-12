@@ -85,3 +85,18 @@ tr td input[type="text"] {
   font-weight: bold;
   text-align: start; /* Align text to the start */
 }
+
+.memoranda {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.memoranda p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.memoranda b {
+  font-weight: bold;
+}
