@@ -49,19 +49,16 @@ table td, tr{
     padding: 5px;
 }
 .first_column{
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 260px;
+    max-width: 260px;
 }
-.table1_col{
+.pin_no, .pin_year, .pin_empty{
+    min-width: 50px;
     font-weight: bold;
     text-align: center;
 }
-.pin, .table1_col{
-    min-width: 50px;
-    max-width: 50px;
-}
-.pin{
-    padding: 0;
+.owner_input{
+    padding-left: 30px;
 }
 /* PROPERTY LOCATION */
 .property_loc{
@@ -75,4 +72,7 @@ table td, tr{
     padding: 0;
     min-width: 40px;
     max-width: 40px;
+}
+.pump_equipment{
+    vertical-align: mid;
 }

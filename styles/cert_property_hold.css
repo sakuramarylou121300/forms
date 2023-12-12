@@ -1,5 +1,5 @@
 *{
-    line-height: 30px;
+    line-height: 20px;
 }
 :root {
     --paragraph_space: 35px; /* Define a variable for a color */ 
@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: var(--paragraph_space);
+    margin-bottom: 38px;
 }
 .poblacion, .tax-dec-no, .name,.name-request, .city-assesor-name, .city-assesor-title{
     font-weight: bold;
@@ -28,6 +29,7 @@ body {
 .greet, .content{
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
 }
 .content{
     line-height: 30px;  
@@ -41,6 +43,7 @@ td{
     border-top: 1px solid black;
     font-size: 10px;
     font-family: Arial;
+    margin-bottom: 12px;
 }
 .table-content .arp_no{
     min-width: 60px;
@@ -88,14 +91,15 @@ td{
     line-height: 0.5;
 } */
 .city_assessor{
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 25px;
 }
 .city_assessor p, .local_assess_officer p{
     line-height: 0.2;
 }
 .local_assess_officer{
-    margin-top: 25px;
-    margin-bottom: 38px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 .last_part p, .last_part td{
     font-size: 12px;

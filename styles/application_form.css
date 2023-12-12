@@ -43,7 +43,7 @@ input[type="checkbox"] {
     width: 150px;
     text-align: center;
     margin-left: 60px  !important;
-    margin-right: 80px !important;
+    margin-right: 90px !important;
 }
 .header_date{
     width: 150px;
@@ -61,6 +61,7 @@ input[type="checkbox"] {
 }
 .name_owner h5, .date h5{
     margin-right: 10px;
+    margin-bottom: 10px;
     text-align: end;
 }
 .name_owner_input input, .name_rep_input input{
