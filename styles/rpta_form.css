@@ -53,12 +53,14 @@ td {
     padding: 0;
 }
 .pin, .pin_no, .pin_year, .pin_empty, .land_pin_no, .land_owner_input,
-.build_pin_no, .build_b01{
+.build_pin_no, .build_b01, .owner, .address_input{
     min-width: 50px;
     text-align: center;
     font-weight: bold;
 }
 .pin{
+    min-width: 65px;
+    max-width: 65px;
     text-align: start;
     font-weight: lighter;
 }
@@ -82,4 +84,99 @@ td {
     margin-left: 20px;
     width: 200px;
     line-height: 1;
+}
+.property_loc_title, .no_street, .no_street_input,
+.prov_city_input, .pump_equipment, .property_assessment, 
+.general_desc_input, .property_assessment_1_input,
+.aquisition_input{
+    font-weight: bold;
+}
+.no_street{
+    min-width: 120px;
+    max-width: 120px;
+}
+.no_street_input{
+    padding: 15px;
+}
+.property_loc_title_table tr td, .property_assessment_table tr td{
+    padding: 0;
+}
+.machine_desc{
+    min-width: 120px;
+    max-width: 120px;
+}
+.economic_life{
+    min-width: 152px;
+    max-width: 152px;
+}
+.estimated, .remaining{
+    min-width: 76px;
+    max-width: 76px;
+}
+.brand_model,.classification, .date_install, .date_operation{
+    min-width: 65px;
+    max-width: 65px;
+}
+.capacity{
+    min-width: 63px;
+    max-width: 63px;
+}
+.condition_acquired{
+    min-width: 60px;
+    max-width: 60px;
+}
+.machine_desc, .brand_model, .capacity,
+.condition_acquired, .economic_life,
+.classification, .date_install, .date_operation,
+.estimated, .remaining, .pump_equipment, .general_desc,
+.property_assessment_1, .aquisition, .conversion_factor,
+.price_index, .rcn, .depreciation, .market_val, 
+.general_desc_input, .property_assessment_1_input,
+.aquisition_input{
+    text-align: center;
+}
+.pump_equipment{
+    vertical-align: middle;
+}
+.pump_equipment_td, .property_assessment_table tr td{
+    height: 16.36px;
+}
+.property_assessment{
+    min-width: 200px;
+    max-width: 200px;
+}
+.general_desc{
+    min-width: 120px;
+    max-width: 120px;
+}
+.general_desc{
+    min-width: 112px;
+    max-width: 112px;
+}
+.property_assessment_empty{
+    min-width: 40px;
+}
+.general_desc{
+    min-width: 192px;
+    max-width: 192px;
+}
+.property_assessment_1{
+    min-width: 55px;
+    max-width: 55px;
+}
+.aquisition{
+    min-width: 50px;
+    max-width: 50px;
+}
+.conversion_factor, .price_index{
+    min-width: 68px;
+    max-width: 68px;
+}
+.rcn, .depreciation, .market_val{
+    min-width: 57px;
+    max-width: 57px;
+}
+.general_desc_input, .property_assessment_1_input,
+.aquisition_input{
+    font-size: 10px;
 }
