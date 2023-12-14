@@ -80,6 +80,7 @@
 .assess {
   border-collapse: separate;
   border-spacing: 10px; /* Adjust this value to change the space between columns */
+  padding-bottom: 10px;
 }
 
 .assess td {
