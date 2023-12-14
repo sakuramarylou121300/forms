@@ -60,3 +60,14 @@
 .notes {
   padding-top: 20px;
 }
+
+.sdth_table{
+  width: 100%;
+  text-align: center;
+}
+
+.fillable {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  gap: 20px; /* Gap between columns */
+}

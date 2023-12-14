@@ -1,7 +1,12 @@
+*{
+  font-size: 12px;
+}
+
 .tax-header {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  padding-top: 80px;
 }
 
 .content {
@@ -15,38 +20,38 @@
   padding: 0px 3px 0px 3px;
 }
 .line2 {
-  padding: 10px 3px 10px 3px;
+  padding: 5px 3px 10px 3px;
 }
 
 .line3 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 10px 3px;
 }
 
 .line4 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 0px 3px;
 }
 
 .line5 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 0px 3px;
 }
 
 .line6 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 0px 3px;
 }
 
 .line7 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 10px 3px;
 }
 .line8 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 10px 3px;
 }
 .line9 {
-  padding: 10px 3px 10px 3px;
+  padding: 0px 3px 0px 3px;
 }
 
 .location {
   width: 100%;
-  padding: 10px 3px 10px 3px;
+  padding: 5px 3px 10px 3px;
 }
 
 .No {
@@ -107,3 +112,26 @@
   transform: translateY(-50%) rotate(-180deg); /* Rotate and align vertically */
   white-space: nowrap; /* Prevent wrapping */
 }
+
+.sdth_table{
+  width: 100%;
+}
+
+.foot {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  gap: 20px; /* Gap between columns */
+}
+
+.memo {
+  font-weight: bold;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.memo td {
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+
