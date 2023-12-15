@@ -89,7 +89,9 @@ td {
 .property_loc_title, .no_street, .no_street_input,
 .prov_city_input, .pump_equipment, .property_assessment, 
 .general_desc_input, .property_assessment_1_input,
-.aquisition_input, .property_assess{
+.aquisition_input, .property_assess_table .assessed_value_input,
+.app_by_name, .recom_by_name, .assessed_by_name, .approved_by_name,
+.ref{
     font-weight: bold;
 }
 .no_street{
@@ -99,7 +101,8 @@ td {
 .no_street_input{
     padding: 15px;
 }
-.property_loc_title_table tr td, .property_assessment_table tr td{
+.property_loc_title_table tr td, .property_assessment_table tr td,
+.app_recom_table tr td, .ref_post_sum tr td{
     padding: 0;
 }
 .machine_desc{
@@ -135,11 +138,12 @@ td {
 .general_desc_input, .property_assessment_1_input,
 .aquisition_input, .property_assess_table .pa_classification,
 .property_assess_table .actual_use, .property_assess_table .pa_market_val,
-.property_assess_table .assess_level, .property_assess_table .assessed_value{
+.property_assess_table .assess_level, .property_assess_table .assessed_value, .property_assess_table .assessed_value_input,
+.ref_post_sum .row1 td, .ref_post_sum .row2 td{
     text-align: center;
 }
 .pump_equipment, .property_assess_table tr td, .general_desc, 
-.depreciation{
+.depreciation, .ref_post_sum tr td{
     vertical-align: middle;
 }
 .pump_equipment_td, .property_assessment_table tr td, .property_assess_table tr td{
@@ -177,28 +181,123 @@ td {
 .aquisition_input{
     font-size: 10px;
 }
-.property_assess_table .pa_classification,
-.property_assess_table .pa_classification_input{
-    min-width: 80px;
-    max-width: 80px;
+.property_assess_table .pa_classification{
+    min-width: 85px;
+    max-width: 85px;
 }
-.property_assess_table .actual_use, 
-.property_assess_table .actual_use_input{
-    min-width: 55px;
-    max-width: 55px;
+.property_assess_table .actual_use{
+    min-width: 45px;
+    max-width: 45px;
 }
-.property_assess_table .market_val,
-.property_assess_table .market_val_input{
-    min-width: 140px;
-    max-width: 140px;
+.property_assess_table .market_val{
+    min-width: 233px;
+    max-width: 233px;
 }
-.property_assess_table .assess_level,
-.property_assess_table .assess_level_input{
-    min-width: 28px;
-    max-width: 28px;
+.property_assess_table .assess_level{
+    min-width: 13px;
+    max-width: 13px;
 }
 .property_assess_table .assessed_value,
 .property_assess_table .assessed_value_input{
-    min-width: 55px;
-    max-width: 55px;
+    min-width: 60px;
+    max-width: 60px;
+}
+.total{
+    font-weight: lighter; 
+    text-align: end; 
+}
+.app_recom_table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: none;
+}
+.app_by, .recom_by{
+    border-top: none; /* Hide top border */
+    border-left: none; /* Hide left border */
+    border-right: none; /* Hide right border */
+    border-bottom: none;
+}
+.app_recom_details td,.assessed_approve td{
+    padding-top: 15px !important;
+}
+.app_recom_table .app_by_name, .assessed_by_name{
+    min-width: 120px;
+    max-width: 120px;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.app_recom_table .app_by_date{
+    min-width: 65px;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.app_recom_table .space{
+    min-width: 60px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+.app_recom_table .recom_by_name, .app_recom_table .approved_by_name{
+    min-width: 100px;
+    max-width: 100px;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.recom_by_date{
+    min-width: 60px;
+    max-width: 60px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.prev_owner, .taxability, .prev_assess,
+.tax_effect{
+    text-align: start;
+}
+.taxability, .tax_effect{
+    border-right: none;
+}
+.taxability_input, .tax_effect_input{
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+}
+.app_recom_details2 td{
+    border: none;
+    text-align: center;
+    font-size: 11px;
+}
+.memoranda{
+    margin-top: 50px;
+    display: flex;
+}
+.memoranda input{
+    margin-left: 40px;
+    min-width: 620px;
+    max-width: 620px;
+}
+.ref_post_sum .ref{
+    min-width: 140px;
+}
+.ref_post_sum .prev_rec{
+    min-width: 140px;
+}
+.ref_post_sum .post_rec{
+    min-width: 90px;
+}
+.ref_post_sum .post_inspect{
+    min-width: 100px;
+}
+.post_rec_date{
+    min-width: 50px;
+}
+.post_init_clerk, .post_insp_init, .post_insp_date{
+    min-width: 50px;
 }
