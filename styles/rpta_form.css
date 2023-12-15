@@ -20,6 +20,7 @@ td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+    word-wrap: break-word;
 }
 .container{
     margin: 0 auto !important; 
@@ -88,7 +89,7 @@ td {
 .property_loc_title, .no_street, .no_street_input,
 .prov_city_input, .pump_equipment, .property_assessment, 
 .general_desc_input, .property_assessment_1_input,
-.aquisition_input{
+.aquisition_input, .property_assess{
     font-weight: bold;
 }
 .no_street{
@@ -132,34 +133,30 @@ td {
 .property_assessment_1, .aquisition, .conversion_factor,
 .price_index, .rcn, .depreciation, .market_val, 
 .general_desc_input, .property_assessment_1_input,
-.aquisition_input{
+.aquisition_input, .property_assess_table .pa_classification,
+.property_assess_table .actual_use, .property_assess_table .pa_market_val,
+.property_assess_table .assess_level, .property_assess_table .assessed_value{
     text-align: center;
 }
-.pump_equipment{
+.pump_equipment, .property_assess_table tr td, .general_desc, 
+.depreciation{
     vertical-align: middle;
 }
-.pump_equipment_td, .property_assessment_table tr td{
+.pump_equipment_td, .property_assessment_table tr td, .property_assess_table tr td{
     height: 16.36px;
+    padding: 0;
 }
 .property_assessment{
     min-width: 200px;
     max-width: 200px;
 }
-.general_desc{
-    min-width: 120px;
-    max-width: 120px;
-}
-.general_desc{
-    min-width: 112px;
-    max-width: 112px;
-}
 .property_assessment_empty{
     min-width: 40px;
 }
-.general_desc{
-    min-width: 192px;
+/* .general_desc{
+    min-width: 200px;
     max-width: 192px;
-}
+} */
 .property_assessment_1{
     min-width: 55px;
     max-width: 55px;
@@ -169,14 +166,39 @@ td {
     max-width: 50px;
 }
 .conversion_factor, .price_index{
-    min-width: 68px;
-    max-width: 68px;
+    min-width: 60px;
+    max-width: 60px;
 }
 .rcn, .depreciation, .market_val{
-    min-width: 57px;
-    max-width: 57px;
+    min-width: 53px;
+    max-width: 53px;
 }
 .general_desc_input, .property_assessment_1_input,
 .aquisition_input{
     font-size: 10px;
+}
+.property_assess_table .pa_classification,
+.property_assess_table .pa_classification_input{
+    min-width: 80px;
+    max-width: 80px;
+}
+.property_assess_table .actual_use, 
+.property_assess_table .actual_use_input{
+    min-width: 55px;
+    max-width: 55px;
+}
+.property_assess_table .market_val,
+.property_assess_table .market_val_input{
+    min-width: 140px;
+    max-width: 140px;
+}
+.property_assess_table .assess_level,
+.property_assess_table .assess_level_input{
+    min-width: 28px;
+    max-width: 28px;
+}
+.property_assess_table .assessed_value,
+.property_assess_table .assessed_value_input{
+    min-width: 55px;
+    max-width: 55px;
 }
