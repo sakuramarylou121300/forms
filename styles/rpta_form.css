@@ -278,11 +278,29 @@ td {
     margin-top: 50px;
     display: flex;
 }
-.memoranda input{
-    margin-left: 40px;
-    min-width: 620px;
-    max-width: 620px;
+ 
+.memoranda_input{
+    width: 800px;
+    padding-left: 30px;
 }
+.memoranda_input input{
+    width: 100%; 
+    box-sizing: border-box;
+}
+.input_continue{
+    width: 740px;
+}
+/* .memoranda_input {
+    width: 800px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.memoranda_input input {
+  width: 10ch;
+} */
+
 .ref_post_sum .ref{
     min-width: 140px;
 }

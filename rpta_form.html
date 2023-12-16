@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="styles/rpta_form.css">
     <!-- THIS IS FOR THE A4 PAPER -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">
+    <!-- <script>
+      function increaseWidth(x){
+        var numberOfCharacters = x.value.length;
+        if(numberOfCharacters>=10){
+          var length = numberOfCharacters + "ch";
+          x.style.width = length;
+        }
+      }
+    </script> -->
   </head>
 <body class="A4">
     <div class="container">
@@ -321,9 +330,13 @@
 
                 <div class="memoranda">
                   <p>MEMORANDA:</p>
-                  <input type="text">
+                  <div class="memoranda_input">
+                    <input type="text">
+                  </div>
+                  
                 </div>
-
+                <input type="text" class="input_continue">
+                <input type="text" class="input_continue">
                 <div>
                   <p class="ref">REFERENCE & POSTING SUMMARY</p>
                   <table class="ref_post_sum">
