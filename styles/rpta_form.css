@@ -86,12 +86,12 @@ td {
     width: 200px;
     line-height: 1;
 }
-.property_loc_title, .no_street, .no_street_input,
+.property_loc_title, .no_street_input,
 .prov_city_input, .pump_equipment, .property_assessment, 
 .general_desc_input, .property_assessment_1_input,
 .aquisition_input, .property_assess_table .assessed_value_input,
 .app_by_name, .recom_by_name, .assessed_by_name, .approved_by_name,
-.ref{
+.ref, .property_assess, .market_val, .pump_equipment_input{
     font-weight: bold;
 }
 .no_street{
@@ -100,6 +100,12 @@ td {
 }
 .no_street_input{
     padding: 15px;
+}
+.no_street, .municipal{
+    border-right: none;
+}
+.barangay_dist, .province_city{
+    border-left: none;
 }
 .property_loc_title_table tr td, .property_assessment_table tr td,
 .app_recom_table tr td, .ref_post_sum tr td{
@@ -139,7 +145,7 @@ td {
 .aquisition_input, .property_assess_table .pa_classification,
 .property_assess_table .actual_use, .property_assess_table .pa_market_val,
 .property_assess_table .assess_level, .property_assess_table .assessed_value, .property_assess_table .assessed_value_input,
-.ref_post_sum .row1 td, .ref_post_sum .row2 td{
+.ref_post_sum .row1 td, .ref_post_sum .row2 td, .pump_equipment_input{
     text-align: center;
 }
 .pump_equipment, .property_assess_table tr td, .general_desc, 
@@ -150,6 +156,9 @@ td {
     height: 16.36px;
     padding: 0;
 }
+/* .pump_equipment_input{
+    
+} */
 .property_assessment{
     min-width: 200px;
     max-width: 200px;
@@ -157,50 +166,46 @@ td {
 .property_assessment_empty{
     min-width: 40px;
 }
-/* .general_desc{
-    min-width: 200px;
-    max-width: 192px;
-} */
 .property_assessment_1{
-    min-width: 55px;
-    max-width: 55px;
+    min-width: 50px;
+    max-width: 50px;
 }
 .aquisition{
     min-width: 50px;
     max-width: 50px;
 }
 .conversion_factor, .price_index{
-    min-width: 60px;
-    max-width: 60px;
+    min-width: 63px;
+    max-width: 63px;
 }
 .rcn, .depreciation, .market_val{
     min-width: 53px;
     max-width: 53px;
 }
 .general_desc_input, .property_assessment_1_input,
-.aquisition_input{
+.aquisition_input, .market_val, .pump_equipment_input{
     font-size: 10px;
 }
 .property_assess_table .pa_classification{
-    min-width: 85px;
-    max-width: 85px;
+    min-width: 80px;
+    max-width: 80px;
 }
 .property_assess_table .actual_use{
-    min-width: 45px;
-    max-width: 45px;
+    min-width: 37px;
+    max-width: 37px;
 }
 .property_assess_table .market_val{
-    min-width: 233px;
-    max-width: 233px;
+    min-width: 242px;
+    max-width: 242px;
 }
 .property_assess_table .assess_level{
-    min-width: 13px;
-    max-width: 13px;
+    min-width: 17px;
+    max-width: 17px;
 }
 .property_assess_table .assessed_value,
 .property_assess_table .assessed_value_input{
-    min-width: 60px;
-    max-width: 60px;
+    min-width: 55px;
+    max-width: 55px;
 }
 .total{
     font-weight: lighter; 
