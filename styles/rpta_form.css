@@ -90,8 +90,7 @@ td {
 .prov_city_input, .pump_equipment, .property_assessment, 
 .general_desc_input, .property_assessment_1_input,
 .aquisition_input, .property_assess_table .assessed_value_input,
-.app_by_name, .recom_by_name, .assessed_by_name, .approved_by_name,
-.ref, .property_assess, .market_val, .pump_equipment_input{
+.app_by_name, .recom_by_name, .assessed_by_name, .approved_by_name, .property_assess, .market_val, .pump_equipment_input{
     font-weight: bold;
 }
 .no_street{
