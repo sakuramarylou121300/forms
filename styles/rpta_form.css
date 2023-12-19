@@ -47,24 +47,33 @@ td {
     margin-left: 220px;
 }
 .arp_no{
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 250px;
 }
 .first_table td{
     padding: 0;
 }
 .pin, .pin_no, .pin_year, .pin_empty, .land_pin_no, .land_owner_input,
 .build_pin_no, .build_b01, .owner, .address_input{
-    min-width: 50px;
     text-align: center;
     font-weight: bold;
 }
 .pin{
-    min-width: 65px;
-    max-width: 65px;
+    min-width: 75px;
+    max-width: 75px;
     text-align: start;
     font-weight: lighter;
 }
+.pin_no{
+    min-width: 30px;
+}
+.pin_year{
+    min-width: 51px;
+}
+.pin_empty{
+    min-width: 50px;
+}
+
 .owner{
     vertical-align: center;
     margin-left: 100px;
