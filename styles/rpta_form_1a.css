@@ -8,18 +8,8 @@ body {
   background: white;
 }
 
-input {
-  border-bottom: 1px solid #000; /* Bottom border style */
-  border-top: none; /* Hide top border */
-  border-left: none; /* Hide left border */
-  border-right: none; /* Hide right border */
-}
 
 /* MY CODE */
-.container {
-  margin: 0 auto !important; /* Add !important if needed */
-  width: 825px !important; /* Add !important if needed */
-}
 .header_1 {
   display: flex;
   justify-content: space-between;
@@ -39,6 +29,7 @@ input {
 .update_code {
   align-items: center;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -49,16 +40,6 @@ tr {
   padding: 8px;
 }
 
-
-tr td input[type="text"] {
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  background: transparent !important;
-  border: 0px;
-  font-size: 10px;
-}
 
 /*PIN Line*/
 .grid-container {
@@ -80,8 +61,8 @@ tr td input[type="text"] {
 }
 
 .memoranda {
-  margin-top: 20px;
-  padding: 10px;  
+  margin-top: 5px;
+  padding: 5px;  
 }
 
 .memoranda p {
@@ -104,10 +85,46 @@ tr td input[type="text"] {
   width: auto;
   height: auto;
   padding-top: 50px;
+  padding-bottom: 25px;
+
 }
+.second_table img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+}
+
 span{
   font-weight: bold;
 }
 .text-centered{
   text-align: center;
+}
+
+.second_table {
+  border-collapse: collapse;
+}
+
+.second_table td {
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 7px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 6px;
+  padding-left: 6px;
+
 }

@@ -6,18 +6,8 @@ body {
   background: white;
 }
 
-input {
-  border-bottom: 1px solid #000; /* Bottom border style */
-  border-top: none; /* Hide top border */
-  border-left: none; /* Hide left border */
-  border-right: none; /* Hide right border */
-}
-
 /* MY CODE */
-.container {
-  margin: 0 auto !important; /* Add !important if needed */
-  width: 825px !important; /* Add !important if needed */
-}
+
 .header_1 {
   display: flex;
   justify-content: space-between;
@@ -27,13 +17,7 @@ input {
   display: flex;
   justify-content: space-between;
 }
-.update_code input {
-  width: 50px;
-  margin-right: 50px;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-}
+
 .update_code {
   align-items: center;
 }
@@ -41,18 +25,12 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 table td,
 tr {
   padding: 5px;
 }
-.first_column {
-  width: 200px;
-}
-.table1_col {
-  width: 70px;
-  font-weight: bold;
-  text-align: center;
-}
+
 /**/
 .sketch-label {
   position: absolute;
@@ -110,21 +88,49 @@ tr {
 
 .memoranda {
   font-weight: bold;
-  margin-bottom: 20px; /* Adding margin bottom to separate from the next section */
+  margin-bottom: 20px;
 }
 
 .memoranda p {
   margin: 5px 0;
   font-weight: lighter;
   word-wrap: break-word;
+  text-decoration: underline;
 }
 
-tr td input[type='text'] {
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  background: transparent !important;
-  border: 0px;
-  font-size: 8px;
+/* Updated CSS */
+.memoranda b {
+  text-decoration: none; /* Remove underline for <b> tags inside .memoranda */
 }
+
+.third-table {
+  border-collapse: collapse;
+}
+
+.third-table td {
+  padding-bottom: 20px;
+}
+
+.for-table td {
+  padding: 6px; /* Adjust padding as needed */
+}
+.fif-table td {
+  padding: 6px; /* Adjust padding as needed */
+}
+.six-table td {
+  padding: 6px; /* Adjust padding as needed */
+}
+.sev-table td {
+  padding: 6px; /* Adjust padding as needed */
+}
+
+.memoranda {
+  margin-top: 5px;
+  padding: 5px;  
+}
+
+.memoranda p {
+  line-height: 1.5;
+  text-align: justify;
+}
+

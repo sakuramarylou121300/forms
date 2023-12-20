@@ -1,342 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
-    <title>REAL PROPERTY FIELD APPRAISAL & ASSESSMENT SHEET-MACHINERY</title>
+    <meta charset="utf-8" />
+    <title>RPTA FORM NC RPTA NO. 1-B</title>
 
-    <link rel="stylesheet" href="styles/rpta_form_1b.css" />
-    <!-- THIS IS FOR THE A4 PAPER -->
+    <!-- Normalize or reset CSS with your favorite library -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+    <!-- Load paper.css for happy printing -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css" />
+
+    <link rel="stylesheet" href="styles/rpta_form_1b.css" />
+
+    <!-- Set page size here: A5, A4 or A3 -->
+    <!-- Set also "landscape" if you need -->
+    <style>
+      @page {
+        size: legal;
+      }
+    </style>
   </head>
+
   <body class="legal">
-    <div class="container">
-      <!-- THIS IS THE TITLE -->
-      <section class="sheet padding-10mm">
-        <div>
-          <div class="header_1">
-            <p>RPTA FORM NC RPTA NO. 1-B (Revised 1996)</p>
-            <p>Revision 02 (April 1, 2022)</p>
+    <!-- Each sheet element should have the class "sheet" -->
+    <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
+    <section class="sheet padding-10mm">
+      <!-- Write HTML just like a web page -->
+      <div>
+        <div class="header_1">
+          <p>RPTA FORM NC RPTA NO. 1-B (Revised 1996)</p>
+          <p>Revision 02 (April 1, 2022)</p>
+        </div>
+        <div class="header_2">
+          <div>
+            <p>
+              REAL PROPERTY FIELD APPRAISAL & ASSESSMENT SHEET-LAND/PLANTS &
+              TREES
+            </p>
           </div>
-          <div class="header_2">
-            <div>
-              <p>
-                REAL PROPERTY FIELD APPRAISAL & ASSESSMENT SHEET-LAND/PLANTS &
-                TREES
-              </p>
-            </div>
-            <div class="update_code">
-              <p>UPDATE CODE</p>
-              <input type="text" />
-            </div>
+          <div class="update_code">
+            <p>UPDATE CODE</p>
           </div>
         </div>
-        <!-- THIS IS THE FIRST TABLE -->
-        <div>
-          <table class="first_table" border="1px">
-            <tr>
-              <td colspan="2">ARP No. <input type="text" /></td>
-              <td colspan="2">Pin <input type="text" /></td>
-            </tr>
-            <tr>
-              <td>OCT/TCT No. <input type="text" /></td>
-              <td>Survey No <input type="text" /></td>
-              <td>Block No <input type="text" /></td>
-              <td>Lot No <input type="text" /></td>
-            </tr>
-          </table>
-        </div>
+      </div>
+      <!--1st-->
+      <table class="1st-table" border="1px">
+        <tr>
+          <td colspan="2">ARP No. &nbsp;&nbsp;&nbsp; <span>18-0021-</span></td>
+          <td style="width: 50px">PIN</td>
+          <td colspan="4"><span>021-02-10</span></td>
+        </tr>
+        <tr>
+          <td>OCT/TCT No. <span>042-2013005502</span></td>
+          <td>Survey No. <span>Psd-035416-056350</span></td>
+          <td>Lot No.</td>
+          <td><span>4441-G-1-D</span></td>
+          <td>Block No.</td>
+          <td>4441-G-1-D</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">
+            Owner: <span>Sps. Nestor A. Agtang and Zeny S. Agtang</span>
+          </td>
+          <td>Address:</td>
+          <td colspan="3">
+            <span>Lot 4441 Roxas St., Sun Valley Brgy. Mabato, CSFP</span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">Tel No</td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="2">Administrator/Occupant:</td>
+          <td colspan="4">Address</td>
+        </tr>
+        <tr>
+          <td colspan="4">Tel No</td>
+        </tr>
+      </table>
 
+      <!--2nd-->
+      <div>
+        <div class="header_2">
+          <div>
+            <p>PROPERTY LOCATION</p>
+          </div>
+        </div>
+      </div>
+      <table class="sec-table" border="1px">
+        <tr>
+          <td style="width: 366px">Street: &nbsp;&nbsp;&nbsp; <span></span></td>
+          <td>Bgy./Dist: &nbsp;&nbsp;&nbsp; <span>PULUNGBULU</span></td>
+        </tr>
+        <tr>
+          <td>
+            Municipality: &nbsp;&nbsp;&nbsp; <span>CITY OF SAN FERNANDO</span>
+          </td>
+          <td>Province/City: &nbsp;&nbsp;&nbsp; <span>CSFP</span></td>
+        </tr>
+      </table>
+      <!--3rd-->
+      <div>
+        <div class="header_2">
+          <div>
+            <p>PROPERTY BOUNDARIES</p>
+          </div>
+        </div>
+      </div>
+      <table class="third-table" border="1px">
+        <tr>
+          <td style="width: 366px">North: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>NE: Lot 4421 San Fdo. Cad.</span></td>
+          <td rowspan="4">                
+            <span
+            style="
+              font-weight: bold;
+              position: absolute;
+              top: 296px;
+              left: 415px;
+              padding-top: 5px;
+            ">
+            Land Sketch:
+          </span>
+          <span
+            style="
+              position: absolute;
+              top: 350px;
+              left: 540px;
+              padding-top: 5px;
+            ">
+            (See Attach Approved Plan)
+          </span>
+        </td>
+        </tr>
+        <tr>
+          <td>East: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span>SE: Lot 4421 Cad 71, San Fdo. Cad.</span></td>
+        </tr>
+        <tr>
+          <td>South: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span>SW: Lot 4441-G-1-C.</span></td>
+        </tr>        <tr>
+          <td>West: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span>NW: Lot  4441-G-1-F (road lot)</span></td>
+        </tr>
+      </table>
+      <!--4th-->
+      <div class="header_2">
         <div>
-          <p>PROPERTY LOCATION</p>
-          <table class="first_table" border="1px">
-            <tr>
-              <td rowspan="1">Street<td><input type="text" /></td></td>
-              <td rowspan="1">Bgy/Dist<td><input type="text" /></td></td>
-            </tr>
-            <tr>
-              <td rowspan="2">Municipality<td><input type="text" /></td>
-            </td>
-              <td rowspan="3">Province/City<td><input type="text" /></td>
-            </td>
-            </tr>
-          </table>
+          <p>LAND APPRAISAL</p>
         </div>
-
-        <div>
-          <p>Property Boundaries</p>
-          <table class="third_table" border="1px">
-            <tr>
-              <td>North<td><input type="text" /></td>
-            </td>
-              <td rowspan="4" class="sketch-cell">
-                <span class="sketch-label">SKETCH</span>
-              </td>
-            </tr>
-            <tr>
-              <td>East<td><input type="text" /></td>
-            </td>
-            </tr>
-            <tr>
-              <td>South<td><input type="text" /></td>
-            </td>
-            </tr>
-            <tr>
-              <td>West:<td><input type="text" /></td>
-            </td>
-            </tr>
-          </table>
-        </div>
-
-        <div>
-          <p>Land Appraisal</p>
-          <table class="fourth_table" border="1px">
-            <th>Classification</th>
-            <th>Sub-Classification</th>
-            <th>Actual Use</th>
-            <th>Area</th>
-            <th>Unit Value</th>
-            <th>Base Maket Value</th>
-            <tbody class="fourth_tbody">
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td colspan="3" style="text-align: right">Total</td>
-                <td><input type="text" /></td>
-                <td colspan="1" style="text-align: right">Total P</td>
-                <td><input type="text" /></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
-          <p>Land Appraisal</p>
-          <table class="fifth_table" border="1px">
-            <th>Sub-Classification</th>
-            <th>Total</th>
-            <th>Non-Fruit Bearing</th>
-            <th>Fruit Bearing</th>
-            <th>Unit Value</th>
-            <th>Base Market Value</th>
-            <tbody class="fifth_tbody">
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td colspan="5" style="text-align: right">Total</td>
-                <td><input type="text" /></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
-          <p>VALUE ADJUSTMENT</p>
-          <table class="sixth_table" border="1px">
-            <th>Base Market Value</th>
-            <th>Adjustment Factor</th>
-            <th>% Adjustment</th>
-            <th>Value Adjustment</th>
-            <th>Market Value</th>
-            <tbody class="sixth_tbody">
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
-          <p>PROPERTY ASSESSEMENT</p>
-          <table class="seventh_table" border="1px">
-            <th>Classification</th>
-            <th>Actual Value</th>
-            <th>Market Value</th>
-            <th>Assessment Level</th>
-            <th>Assessed Value</th>
-            <tbody class="seventh_tbody">
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td colspan="2" style="text-align: right">Total P</td>
-                <td colspan="1"><input type="text" /></td>
-                <td colspan="1" style="text-align: right">Total P</td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td colspan="3">Previous Owner</td>
-                <td colspan="2">Tax</td>
-              </tr>
-              <tr>
-                <td colspan="3">Previous Assessed Value</td>
-                <td colspan="2">Tax Effectivity</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="header_3">
-          <p>APPRAISED BY:</p>
-          <p>RECOMENDING APPROVAL</p>
-        </div>
-        <div>
-          <table class="8th_table">
-            <th><input type="text" /></th>
-            <th><input type="text" /></th>
-            <th><input type="text" /></th>
-            <th><input type="text" /></th>
-            <tr style="text-align: center">
-              <td>LAOO III, Lic No. 3040</td>
-              <td>Date</td>
-              <td>ASST CITY ASSESSOR Lic No. 10328</td>
-              <td>Date</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="header_3">
-          <p>ASSESSED BY:</p>
-          <p>APPROVED:</p>
-        </div>
-        <div>
-          <table class="eigth_table">
-            <th><input type="text" /></th>
-            <th><input type="text" /></th>
-            <th><input type="text" /></th>
-            <th><input type="text" /></th>
-            <tr style="text-align: center">
-              <td>LAOO III, Lic No. 3040</td>
-              <td>Date</td>
-              <td>CITY ASSESSOR Lic No. 00295</td>
-              <td>Date</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="memoranda">
-          <p>
-            <b>MEMORANDA:</b> This reclassification and reassessment is made
-            solely for real property taxation purposes pursuant to section 217
-            of RA. 7160 and should not be construed as conversion as
-            contemplated under RA No. 6657. CASSO Ctrl No. S031-05/09/23
-          </p>
-        </div>
-
-        <div>
-          <p>PROPERTY ASSESSMENT</p>
-          <table class="seventh_table" border="1px">
-            <tr>
-              <td rowspan="2">Reference</td>
-              <td rowspan="2">Previous Record</td>
-              <td colspan="2">Posting Rec</td>
-              <!-- Modified colspan to accommodate two cells -->
-              <td colspan="2">Post Inspection</td>
-            </tr>
-            <tr>
-              <td>Date</td>
-              <td>Posting Clerk</td>
-              <td>Initail</td>
-              <td>Date</td>
-            </tr>
-            <tr>
-              <td>Pin</td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-            </tr>
-            <tr>
-              <td>ARPN/TDN</td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-            </tr>
-            <tr>
-              <td>A/T Roll or Page No.</td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-              <td><input type="text" /></td>
-            </tr>
-          </table>
-        </div>
-      </section>
+      </div>
     </div>
+    <table class="for-table" border="1px">
+      <tr>
+        <td>Classification</td>
+        <td>Sub-Classification</td>
+        <td>Actual Use</td>
+        <td>Area</td>
+        <td>Unit Value</td>
+        <td>Base Unit Value</td>
+      </tr>
+      <tr style="text-align: center; font-weight: bold;">
+        <td>Com</td>
+        <td>C-4</td>
+        <td>Com</td>
+        <td>2,486.00 sqm.</td>
+        <td>2,000</td>
+        <td>4,972,000.00</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="text-align: right;">
+        <td colspan="3">Total</td>
+        <td colspan="2">Total P</td>
+        <td></td>
+      </tr>
+    </table>
+    <!--5th-->
+    <div class="header_2">
+      <div>
+        <p>PLANTS AND TREES APPRAISAL</p>
+      </div>
+    </div>
+    <table class="fif-table" border="1px">
+      <tr style="text-align: center; font-weight: bold;">
+        <td rowspan="2">Sub Classification</td>
+        <td colspan="3"></td>
+        <td rowspan="2">Unit Value</td>
+        <td rowspan="2">Base Market Value</td>
+      </tr>
+      <tr style="text-align: center; font-weight: bold;">
+        <td>Total</td>
+        <td>Non-Fruit Bearing</td>
+        <td>Fruit Bearing</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr><tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="5" style="text-align: right;">Total</td>
+        <td></td>
+      </tr>
+    </table>
+    <!--6th-->
+    <div class="header_2">
+      <div>
+        <p>VALUE ADJUSTMENT</p>
+      </div>
+    </div>
+    <table class="six-table" border="1px">
+      <tr style="text-align: center; font-weight: bold;">
+        <td>Base Market Value</td>
+        <td>Adjustment Factor</td>
+        <td>% Adjustment</td>
+        <td>Value Adjustment</td>
+        <td>Market Value</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <!--7th-->
+    <div class="header_2">
+      <div>
+        <p>PROPERTY ASSESSMENT</p>
+      </div>
+    </div>
+    <table class="sev-table" border="1px">
+      <tr style="text-align: center;">
+        <td>Classification</td>
+        <td>Actual Use</td>
+        <td>Market Value</td>
+        <td>Assessment Level</td>
+        <td>Assessed Value</td>
+      </tr>
+      <tr style="text-align: center; font-weight: bold;">
+        <td>Com</td>
+        <td>Com</td>
+        <td>4,972,000.00</td>
+        <td>40%</td>
+        <td>1,988,800.00</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <div class="header_3">
+      <p>APPRAISED BY:</p>
+      <p>RECOMENDING APPROVAL</p>
+    </div>
+    <div>
+      <table class="8th_table">
+        <th style="text-decoration: underline">EDUARDO M. PARUNGAO JR.</th>
+        <th style="text-decoration: underline">5-8-23</th>
+        <th style="text-decoration: underline">SINTA IRA B. GUECO, REA</th>
+        <th style="text-decoration: underline">5-8-23</th>
+        <tr style="text-align: center">
+          <td>LAOO III, Lic No. 3040</td>
+          <td>Date</td>
+          <td>ASST CITY ASSESSOR Lic No. 10328</td>
+          <td>Date</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="header_3">
+      <p>ASSESSED BY:</p>
+      <p>APPROVED:</p>
+    </div>
+    <div>
+      <table class="eigth_table">
+        <th style="text-decoration: underline">REYAN R. MIRANDA, REA</th>
+        <th style="text-decoration: underline">5-8-23</th>
+        <th style="text-decoration: underline">
+          LUZ T. BAUTISTA, REA, PHD
+        </th>
+        <th style="text-decoration: underline">5-8-23</th>
+        <tr style="text-align: center">
+          <td>LAOO III, Lic No. 3040</td>
+          <td>Date</td>
+          <td>CITY ASSESSOR Lic No. 00295</td>
+          <td>Date</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="memoranda">
+      <p>
+        <b>MEMORANDA:</b> This reclassification and reassessment is made
+        solely for real property taxation purposes pursuant to section 217
+        of RA. 7160 and should not be construed as conversion as
+        contemplated under RA No. 6657. CASSO Ctrl No. S031-05/09/23
+      </p>
+    </div>
+
+    <div>
+      <p>PROPERTY ASSESSMENT</p>
+      <table class="seventh_table" border="1px">
+       <tr style="text-align: center; ">
+        <td rowspan="3">REFERENCE</td>
+        <td rowspan="3">PREVIOUS RECORDS</td>
+        <td colspan="2">POSTING RECORDS</td>
+        <td colspan="2">POST INSPECTION</td>
+       </tr>
+       <tr style="text-align: center; ">
+        <td rowspan="2" style="width: 100px;">Date</td>
+        <td>Posting Clerk</td>
+        <td rowspan="2">Initial</td>
+        <td rowspan="2">Datesss</td>
+       </tr>
+       <tr style="text-align: center; ">
+        <td>Intital</td>            
+       </tr>
+       <tr>
+        <td>Pin</td>
+        <td style="text-align: center;"><span>454545</span></td>
+        <td colspan="2" style="text-align: center;"><span>May 10 2023</span></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>ARPN/TDN</td>
+        <td style="text-align: center;"><span>18-0021-00094</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>A/T Roll or AR page No.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </table>
+        </section>
   </body>
 </html>
