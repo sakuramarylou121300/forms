@@ -1,0 +1,73 @@
+* {
+  font-size: 14px;
+}
+
+.revision {
+  text-align: right; /* Aligns the content to the right */
+}
+
+.revision > div {
+  /* Optional styles for each div within the .revision container */
+  /* Add your own styles here if needed */
+  margin-bottom: 5px; /* Example margin */
+}
+
+.tax-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.details {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.picture-gal {
+  display: flex;
+  justify-content: center;
+}
+
+.building-sketch-image {
+  width: 300px;
+  padding: 20px;
+}
+
+.check-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.years {
+  width: 100%;
+  border-collapse: collapse;
+  padding-top: 20px;
+}
+
+.attest {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attested {
+  width: 100%;
+}
+
+.notes {
+  padding-top: 20px;
+}
+
+.sdth_table{
+  width: 100%;
+  text-align: center;
+}
+
+.fillable {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  gap: 20px; /* Gap between columns */
+}

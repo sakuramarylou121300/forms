@@ -1,368 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tax</title>
-
-    <link rel="stylesheet" href="styles/tax_dec_real_prop.css" />
-    <!-- THIS IS FOR THE A4 PAPER -->
+    <meta charset="utf-8" />
+    <title>TAX</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css" />
+    <link rel="stylesheet" href="./styles/tax_dec_real_prop.css" />
+    <style>
+      @page {
+        size: A4;
+      }
+    </style>
   </head>
+
   <body class="A4">
-    <div class="container">
-      <section class="sheet padding-10mm">
-        <!-- THIS IS FOR THE HEADER -->
-        <div class="header">
-          <h3>TAX DECLARATION OF REAL PROPERTY</h3>
+    <section class="sheet padding-10mm">
+      <div>
+        <div class="tax-header">
+          <div>Tax Declaration of Real Property</div>
           <div class="text-align">
-            <h5>RTPA Form No.1</h5>
-            <h5>City Ordinance No. 2017-025</h5>
+            <b>City Ordinance No. 2017-025</b>
+            <h5 style="position: absolute; top: 110px; left: 38px">
+              RTPA Form No.1
+            </h5>
           </div>
         </div>
-        <!-- THIS IS FOR THE CONTENT -->
-        <div class="content_line">
+        <div class="content">
+          <div class="line1">
+            <div>ARP/TD No.: <span>18-0027-07948</span></div>
+            <div>PIN: 205-00-0027-018-35-1001-(1001)</div>
+          </div>
+          <div class="line2">Onwer: Century Limitless Corporation</div>
+          <div class="line3">
+            Address:
+            <span
+              >21st Floor Pacific Star Building, Makati Avenue Cor, Sen. Gil
+              Puyat Avenue, Makati City</span
+            >
+          </div>
+          <div class="line4">Admin/Ben. User/</div>
+          <div class="line5">Occupant:</div>
+          <div class="line6">Address:</div>
 
-          <div class="text-align">
-            <div>
-              <label>ARP/TD No.: </label>
-              <input type="text" />
-            </div>
-            <div>
-              <label>PIN: </label>
-              <input type="text" />
-            </div>
+          <table class="location">
+            <tr>
+              <td>Location of Property:</td>
+              <td
+                style="text-align: center; border-bottom: 1px solid black"></td>
+              <td style="text-align: center; border-bottom: 1px solid black">
+                SAN JOSE
+              </td>
+              <td style="text-align: center; border-bottom: 1px solid black">
+                SAN FERNANDO
+              </td>
+            </tr>
+            <tr style="text-align: center">
+              <td></td>
+              <td>Street & Subdivision</td>
+              <td>Barangay/District</td>
+              <td>City</td>
+            </tr>
+          </table>
+          <table class="No">
+            <tr>
+              <td class="right">OCT/TCT/CLOA No:</td>
+              <td>042-2018009773</td>
+              <td class="right">Survey No:</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="right">CCT:</td>
+              <td>042-202000</td>
+              <td class="right">Lot Number:</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td class="right">Unit No:</td>
+              <td>1001</td>
+              <td class="right">Block Number:</td>
+              <td>0</td>
+            </tr>
+          </table>
+          <div class="line7">BOUNDARIES:</div>
+          <table class="boundaries">
+            <tr>
+              <td>North:</td>
+              <td>South:</td>
+            </tr>
+            <tr>
+              <td>East:</td>
+              <td>West:</td>
+            </tr>
+          </table>
+          <div class="line8">KIND OF PROPERTY ASSESSED:</div>
+          <table class="property">
+            <tr>
+              <td><input type="checkbox" /><label>LAND</label></td>
+              <td><input type="checkbox" /><label>MACHINERY</label></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /><label>BUILDING</label></td>
+              <td><input type="checkbox" /><label>OTHERS</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>OTHERS: <span>Condominium</span></td>
+            </tr>
+          </table>
+          <div class="inner-table">
+            <table class="assess">
+              <tr style="text-transform: uppercase">
+                <td>Class/Kind</td>
+                <td>Area (sq.m.)</td>
+                <td>Market Value</td>
+                <td>Actual Use</td>
+                <td>Assment. Level</td>
+                <td>Assessed Value</td>
+                <td>TAXABILITY</td>
+              </tr>
+              <tr>
+                <td class="text-centered">RES</td>
+                <td class="text-right">28.72</td>
+                <td class="text-right">310,413.73</td>
+                <td class="text-centered">RES</td>
+                <td class="text-centered">60</td>
+                <td class="text-right">186,250.00</td>
+                <td class="text-centered">Taxable</td>
+              </tr>
+              <tr>
+                <td class="text-centered"></td>
+                <td class="text-right"></td>
+                <td class="text-right"></td>
+                <td class="text-centered"></td>
+                <td class="text-centered"></td>
+                <td class="text-right"></td>
+                <td class="text-centered"></td>
+              </tr>
+              <tr>
+                <td class="text-centered"></td>
+                <td class="text-right"></td>
+                <td class="text-right"></td>
+                <td class="text-centered"></td>
+                <td class="text-centered"></td>
+                <td class="text-right"></td>
+                <td class="text-centered"></td>
+              </tr>
+              <tr>
+                <td class="text-right">TOTAL:</td>
+                <td class="text-right">28.72</td>
+                <td class="text-right">310,413.73</td>
+                <td></td>
+                <td></td>
+                <td class="text-right">186,250.00</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style="width: 125px; text-align: right;">Total Assessed Value:</td>
+                <td colspan="6" style="text-align: center;">
+                  ONE HUNDRED EIGHTY-SIX THOUSAND TWO HUNDRED FIFTY PESOS ONLY
+                </td>
+              </tr>
+            </table>
           </div>
-
-          <div class="pad">
-            <label>Owner: </label>
-            <input type="text" class="owner_input" />
-          </div>
-          <div class="pad">
-            <label>Admin/Ben. User/ </label>
-          </div>
-          <div class="pad">
-            <label>Occupant: </label>
-            <input type="text" class="address_input" />
-          </div>
-          <div class="pad">
-            <label>Address: </label>
-            <input type="text" class="address_input" />
-          </div>
-
-          <!--Loc line-->
-          <div class="grid-container">
-            <div class="grid-item-location">Location of Property:</div>
-            <div class="grid-item">
-              <input type="text" class="center-text-input" />
-              <label>Street & Subdivision</label>
-            </div>
-            <div class="grid-item">
-              <input type="text" class="center-text-input" />
-              <label>Barangay/District</label>
-            </div>
-            <div class="grid-item">
-              <input type="text" class="center-text-input" />
-              <label>City</label>
-            </div>
-          </div>
-
-          <!---->
-          <div class="grid-container-2">
-            <div class="column">
-              <div class="inner_col">
-                <div>
-                  <label>OCT/TCT/CLOA No:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="inner_col">
-                <div>
-                  <label>CTT:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="inner_col">
-                <div>
-                  <label>Unit No:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="inner_col">
-                <div>
-                  <label>Survey No:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="inner_col">
-                <div>
-                  <label>Lot Number:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="inner_col">
-                <div>
-                  <label>Block Number:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--Boundaries-->
-          <div class="pad">
-            <label>Boundaries: </label>
-          </div>
-
-          <div class="grid-container-2">
-            <div class="column">
-              <div class="inner_col">
-                <div>
-                  <label>North:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="inner_col">
-                <div>
-                  <label>East:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="inner_col">
-                <div>
-                  <label>South:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="inner_col">
-                <div>
-                  <label>West:</label>
-                </div>
-                <div>
-                  <input type="text" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Assess-->
-          <div class="pad">
-            <label>KIND OF PROPERTY ASSESSED</label>
-          </div>
-
-          <div class="grid-container-2">
-            <div class="column">
-              <div>
-                <input type="checkbox" />
-                <label>LAND</label>
-              </div>
-              <div>
-                <input type="checkbox" />
-                <label>BUILDING</label>
-              </div>
-            </div>
-            <div class="column">
-              <div>
-                <input type="checkbox" />
-                <label>MACHINERY</label>
-              </div>
-              <div>
-                <input type="checkbox" />
-                <label>OTHERS</label>
-              </div>
-              <div>
-                <label>Specify:</label>
-                <input type="text" class="center-text-input" />
-              </div>
-            </div>
-          </div>
-          <!-- TABLE -->
-          <div class="table-div">
-            <div class="table-content">
-              <div class="table-column">
-                <p class="table-head">CLASS/KIND</p>
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <div class="value-total">Total</div>
-              </div>
-              <div class="table-column area-value-column">
-                <p class="table-head">AREA (sq.m.)</p>
-                <input type="text" class="center-text-input" name="area-1" />
-                <input type="text" class="center-text-input" name="area-2" />
-                <input type="text" class="center-text-input" name="area-3" />
-                <input type="text" class="center-text-input" name="area-4" />
-                <div class="area-value-total">$0.00</div>
-              </div>
-              <div class="table-column market-value-column">
-                <p class="table-head">MARKET VALUE</p>
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <div class="market-value-total">$0.00</div>
-              </div>
-              <div class="table-column">
-                <p class="table-head">ACTUAL USE</p>
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-              </div>
-              <div class="table-column">
-                <p class="table-head">ASSMNT LEVEL</p>
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-              </div>
-              <div class="table-column assessed-value-column">
-                <p class="table-head">ASSESS VALUE</p>
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <div class="ass-value-total">$0.00</div>
-              </div>
-              <div class="table-column">
-                <p class="table-head">TAXABILITY</p>
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-                <input type="text" class="center-text-input" />
-              </div>
-            </div>
-            <div class="table-total-words">
-              <label>TOTAL ASSESED VALUE: </label>
-              <input type="text" class="total-asssessed-val" />
-            </div>
-          </div>
-          <!--AFTER TABLE-->
-          <div class="remark-div">
-            <div class="grid-container">
-              <div class="grid-item-location">Effectivity of Assessment/Reassesment:</div>
-              <div class="grid-item">
-                <input type="text" class="qtr" />
-                <label>Qtr</label>
-              </div>
-              <div class="grid-item">
-                <input type="text" class="qtr" />
-                <label>Year</label>
-              </div>
-            </div>
-            
-            <!--AFTER TABLE-->
-            <div>
-              <div class="grid-container-appro">
-                <div class="grid-item-approved">APPROVED BY:</div>
-                <div class="grid-item">
-                  <input type="text" />
-                  <label>OIC-City Assessor</label>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--AFTER TABLE-->
-          <div class="grid-container-3col">
-            <div>Owners Copy</div>
-            <div>Owner:</div>
-            <div>Previous A. V.</div>
-          </div>
-
-          <!--AFTER TABLE-->
-          <div class="memoranda">MEMORANDA:</div>
-          <div class="traditional-vertical-writing">
-            IMPORTANT: Issued for taxation purposes and should not be considered as title to property.
+          <div class="line9">
+            <table class="approve">
+              <tr>
+                <td style="width: 225px">
+                  Effectivity of Assessment/Reassessment:
+                </td>
+                <td style="text-decoration: underline">1st</td>
+                <td style="text-decoration: underline">2022</td>
+                <td>APPROVED BY:</td>
+              </tr>
+              <tr>
+                <td>RECOMMENDED BY:</td>
+                <td>QTR</td>
+                <td>Year</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="text-centered" style="text-decoration: underline">
+                  LUZ T. BAUTISTA, REA, PhD
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="text-centered" style="font-weight: bold">
+                  City Assessor, Lic. No. 00295
+                </td>
+              </tr>
+            </table>
+            <div class="line9" style="font-weight: bold">Owner's Copy</div>
+            <table class="memo" style="font-weight: bold">
+              <tr>
+                <td style="width: 325px">
+                  This declaration cancels ARP/TD No: <span>09-0001-00001</span>
+                </td>
+                <td style="width: 200px;">Owner: <span>Nasawa District 5 National Waterworks and Sewage</span></td>
+                <td>Previous A.V.: <span>644,000</span></td>
+              </tr>
+              <tr style="font-weight: bold">
+                <td>MEMORANDA: <span>S-129-01/26/22</span></td>
+              </tr>
+            </table>
           </div>
         </div>
-        <!--CONTENT LINE END-->
+
+        <div class="foot">
+          <div class="foot-item">
+            <div style="font-weight: bold; padding-bottom: 10px">
+              NOT VALID WITHOUT OFFICIAL SEAL
+            </div>
+
+            <div style="padding-bottom: 10px">
+              <div style="font-weight: bold">Certified true copy</div>
+              <div>Requested by: Nawasa District</div>
+              <div>Issused on the 10th of May 2023</div>
+            </div>
+
+            <div>
+              <div>O.R. No.: <span>1234567</span></div>
+              <div>Amount Paid: <span>50.00</span></div>
+              <div>Date: <span>05/10/23</span></div>
+              <div>
+                Purpose:
+                <span
+                  >for whatever legal purposes and intends it may serve.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="foot-item" style="padding-top: 50px; padding-left: 175px; text-align: center; font-weight: bold;">
+            <div style="text-decoration: overline;">LUZ T. BAUTISTA, REA, PHD.</div>
+            <div>City Assessor, Lic No. 00295</div>
+          </div>
+          
+          
         </div>
-      </section>
-    </div>
-    <!--SCRIPT-->
-    <script>
-      window.addEventListener("DOMContentLoaded", (event) => {
-        function calculateTotals() {
-          const marketValueInputs = document.querySelectorAll(
-            '.market-value-column input[type="text"]'
-          );
-          const assessedValueInputs = document.querySelectorAll(
-            '.assessed-value-column input[type="text"]'
-          );
-          const areaValueInputs = document.querySelectorAll(
-            '.area-value-column input[type="text"]'
-          );
 
-          let totalMarketValue = 0;
-          let totalAssessedValue = 0;
-          let totalAreaValue = 0;
 
-          marketValueInputs.forEach((input) => {
-            const inputValue =
-              parseFloat(input.value.replace(/[^0-9.-]+/g, "")) || 0;
-            totalMarketValue += inputValue;
-          });
+        <div class="traditional-vertical-writing">
+          IMPORTANT: Issued for taxation purposes and should not be considered
+          as title to property.
+        </div>
 
-          assessedValueInputs.forEach((input) => {
-            const inputValue =
-              parseFloat(input.value.replace(/[^0-9.-]+/g, "")) || 0;
-            totalAssessedValue += inputValue;
-          });
+        <h5 style="position: absolute; top: 680px; left: 401px">
+          (Amount in words)
+        </h5>
 
-          areaValueInputs.forEach((input) => {
-            const inputValue =
-              parseFloat(input.value.replace(/[^0-9.-]+/g, "")) || 0;
-            totalAreaValue += inputValue;
-          });
-
-          const marketValueTotalElement = document.querySelector(
-            ".market-value-total"
-          );
-          marketValueTotalElement.innerText = `${totalMarketValue.toFixed(2)}`;
-
-          const assessedValueTotalElement =
-            document.querySelector(".ass-value-total");
-          assessedValueTotalElement.innerText = `${totalAssessedValue.toFixed(
-            2
-          )}`;
-
-          const areaValueTotalElement =
-            document.querySelector(".area-value-total");
-          areaValueTotalElement.innerText = `${totalAreaValue.toFixed(2)}`;
-        }
-
-        const allInputs = document.querySelectorAll('input[type="text"]');
-        allInputs.forEach((input) => {
-          input.addEventListener("input", calculateTotals);
-        });
-
-        calculateTotals();
-      });
-    </script>
+        
+      </div>
+    </section>
   </body>
 </html>

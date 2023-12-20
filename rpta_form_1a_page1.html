@@ -2,19 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
     <title>REAL PROPERTY FIELD APPRAISAL & ASSESMENT SHEET- BUILDING</title>
     <link rel="stylesheet" href="styles/rpta_form_1a.css" />
-    <!-- THIS IS FOR THE A4 PAPER -->
+    <!-- Normalize or reset CSS with your favorite library -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+    <!-- Load paper.css for happy printing -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css" />
+
+    <!-- Set page size here: A5, A4 or A3 -->
+    <!-- Set also "landscape" if you need -->
+    <style>@page { size: legal }</style>
+
   </head>
-  <body class="A4">
-    <div class="container">
-      <!-- THIS IS THE TITLE -->
+  <body class="legal">
+    <!-- THIS IS THE TITLE -->
       <section class="sheet padding-10mm">
-        <div>
+
+        <div style="padding-top: 50px;">
           <div class="header_1">
             <p>RPTA FORM NC RPTA NO. 1-A (Revised 1996)</p>
             <p>Revision 02 (April 1, 2022)</p>
@@ -25,7 +34,6 @@
             </div>
             <div class="update_code">
               <p>UPDATE CODE</p>
-              <input type="text" />
             </div>
           </div>
         </div>
@@ -34,9 +42,16 @@
           <table class="first_table" border="1px">
             <tr>
               <td colspan="3">ARP NO: <span>034-14-03-1001</span></td>
-              <td style="width: 150px;">PIN:<span>034-14-03-1001</span></td>
-              <td rowspan="21" colspan="3" style="position: relative;">
-                <span style="font-weight: bold; position: absolute; top: 0; left: 0; padding-top: 5px;">
+              <td style="width: 150px">PIN:<span>034-14-03-1001</span></td>
+              <td rowspan="21" colspan="3" style="position: relative">
+                <span
+                  style="
+                    font-weight: bold;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    padding-top: 5px;
+                  ">
                   BUILDING SKETCH FLOOR PLAN:
                 </span>
 
@@ -124,7 +139,7 @@
             </tr>
             <tr>
               <td colspan="1"></td>
-              <td colspan="2" style="width: 150px">1st</td>
+              <td colspan="2" style="width: 200px">1st</td>
               <td colspan="2">2nd</td>
             </tr>
             <tr>
@@ -156,12 +171,18 @@
             <tr>
               <td colspan="2">Exterior Walls</td>
               <td colspan="2" class="text-centered"><span>CHB</span></td>
-              <td colspan="2">Strucutal Type: <span style="padding-left: 30px;">RESIDENTIAL</span></td>
+              <td colspan="2">
+                Strucutal Type:
+                <span style="padding-left: 30px">RESIDENTIAL</span>
+              </td>
             </tr>
             <tr>
               <td colspan="2">Flooring</td>
               <td colspan="2" class="text-centered"><span>TILES</span></td>
-              <td colspan="2">Building Classification: <span style="padding-left: 30px;">RESIDENTIAL</span></td>
+              <td colspan="2">
+                Building Classification:
+                <span style="padding-left: 30px">RESIDENTIAL</span>
+              </td>
             </tr>
             <tr>
               <td colspan="2">Doors</td>
@@ -178,7 +199,10 @@
             <tr>
               <td colspan="2">Windows</td>
               <td colspan="2" class="text-centered"><span>ANALOK</span></td>
-              <td colspan="2">No of Storeys: <span style="padding-left: 30px;">TWO (2) STOREY</span></td>
+              <td colspan="2">
+                No of Storeys:
+                <span style="padding-left: 30px">TWO (2) STOREY</span>
+              </td>
             </tr>
             <tr>
               <td colspan="2">Stairs</td>
@@ -188,14 +212,16 @@
             <tr>
               <td colspan="2">Partition</td>
               <td colspan="2" class="text-centered"><span>CHB</span></td>
-              <td colspan="2">Date Completed <span style="padding-left: 30px;">2022</span></td>
+              <td colspan="2">
+                Date Completed <span style="padding-left: 30px">2022</span>
+              </td>
             </tr>
             <tr>
               <td colspan="2">Wall Finish:</td>
               <td colspan="2" class="text-centered">
                 <span>PLASTERED/PAINTED</span>
               </td>
-              <td colspan="2">Date Occupied: </td>
+              <td colspan="2">Date Occupied:</td>
             </tr>
             <tr>
               <td colspan="2">Electrical</td>
@@ -207,188 +233,212 @@
               <td colspan="2">Toilet & Bath</td>
               <td colspan="1" class="text-centered"></td>
               <td colspan="1" class="text-centered"></td>
-              <td>Terrace</td>
+              <td>Terrace:</td>
               <td></td>
             </tr>
             <tr>
               <td colspan="2">Plumbing/Sewer</td>
               <td colspan="1" class="text-centered"></td>
               <td colspan="1" class="text-centered"></td>
-              <td>Carport</td>
-              <td><span>18.00</span></td>
+              <td>Carport: <span>18.00</span></td>
+              <td></td>
             </tr>
             <tr>
               <td colspan="2">Fixture</td>
               <td colspan="1" class="text-centered"></td>
               <td colspan="1" class="text-centered"></td>
-              <td>Balcony</td>
-              <td><span>9.00</span></td>
+              <td>Balcony: <span>9.00</span></td>
+              <td></td>
             </tr>
             <tr>
               <td colspan="2">Others(Specify)</td>
               <td colspan="1" class="text-centered"></td>
               <td colspan="1" class="text-centered"></td>
-              <td colspan="3" style="height: 80px;">TOTAL: <span>141.00 m2</span></td>
+              <td colspan="3" style="height: 35px">
+                Total Bldg Area:
+                <span style="font-size: x-large">141.00 m2</span>
+              </td>
             </tr>
           </table>
         </div>
+        <div style="padding-top: 10px; font-weight: bold">*NDEC</div>
       </section>
 
       <section class="sheet padding-10mm">
-        <div>
-          <div>
-            <table class="seventh_table" border="1px">
-              <th>Classification</th>
-              <th>Actual Value</th>
-              <th>Unit Value</th>
-              <th>Market Value</th>
-              <th>Assessment Level</th>
-              <th>Assessed Value</th>
-              <tbody class="seventh_tbody">
-                <tr>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                </tr>
-                <tr>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                </tr>
-                <tr>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                  <td><input type="text" /></td>
-                </tr>
-                <tr>
-                  <td colspan="2" style="text-align: right">Total P</td>
-                  <td colspan="1"><input type="text" /></td>
-                  <td colspan="1" style="text-align: right">Total P</td>
-                  <td colspan="2"><input type="text" /></td>
-                </tr>
-                <tr>
-                  <td colspan="3">Previous Owner</td>
-                  <td colspan="3">Tax</td>
-                </tr>
-                <tr>
-                  <td colspan="3">Previous Assessed Value</td>
-                  <td colspan="3">Tax Effectivity</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="header_3">
-            <p>APPRAISED BY:</p>
-            <p>RECOMENDING APPROVAL</p>
-          </div>
-          <div>
-            <table class="8th_table">
-              <th><input type="text" /></th>
-              <th><input type="text" /></th>
-              <th><input type="text" /></th>
-              <th><input type="text" /></th>
-              <tr style="text-align: center">
-                <td>LAOO III, Lic No. 3040</td>
-                <td>Date</td>
-                <td>ASST CITY ASSESSOR Lic No. 10328</td>
-                <td>Date</td>
-              </tr>
-            </table>
-          </div>
+        <table class="second_table" border="1px">
+          <tr>
+            <td style="position: relative">
+              <span class="top-left" style="font-weight: normal"
+                >Building Core: (Use additional sheets if necessary)</span
+              >
+              <span class="bottom-left" style="font-weight: normal"
+                >Sub Total</span
+              >
+            </td>
+            <td style="width: 350px">
+              <div class="building-sketch-container">
+                <img
+                  class="building-sketch-image"
+                  id="selectedImage"
+                  src="https://online.visual-paradigm.com/repository/images/da60163b-02ed-4846-b95b-e40c41b75891/floor-plan-design/small-house-floor-plan-with-dimensions.png" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Depreciation Rate</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Accumulated Depreciation</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="third_table" border="1px">
+          <tr>
+            <td colspan="8">PROPERTY ASSESSMENT</td>
+          </tr>
+          <tr>
+            <td>Classification</td>
+            <td>Area</td>
+            <td>Actual Use</td>
+            <td>Unit Value</td>
+            <td>Market Value</td>
+            <td>Assm't Value</td>
+            <td colspan="2">Assessed Value</td>
+          </tr>
+          <tr style="text-align: center">
+            <td><span>I-C(1)G</span></td>
+            <td><span>141.00</span></td>
+            <td><span>RES</span></td>
+            <td><span>5,460</span></td>
+            <td><span>769,860.00</span></td>
+            <td></td>
+            <td colspan="2"><span>246,440.00</span></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right">P</td>
+            <td><span>821,457.00</span></td>
+            <td><span>Total</span></td>
+            <td><span>246,440.00</span></td>
+          </tr>
+          <tr>
+            <td>Previous Owner</td>
+            <td colspan="3"></td>
+            <td colspan="4">Taxability: <span>TAXABLE</span></td>
+          </tr>
+          <tr>
+            <td>Previous Assessed Value:</td>
+            <td colspan="3"></td>
+            <td>Tax Effectivity</td>
+            <td colspan="3" style="text-align: center">2023</td>
+          </tr>
+        </table>
 
-          <div class="header_3">
-            <p>ASSESSED BY:</p>
-            <p>APPROVED:</p>
-          </div>
-          <div>
-            <table class="eigth_table">
-              <th><input type="text" /></th>
-              <th><input type="text" /></th>
-              <th><input type="text" /></th>
-              <th><input type="text" /></th>
-              <tr style="text-align: center">
-                <td>LAOO III, Lic No. 3040</td>
-                <td>Date</td>
-                <td>CITY ASSESSOR Lic No. 00295</td>
-                <td>Date</td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="memoranda">
-            <p>
-              <b>MEMORANDA:</b> This reclassification and reassessment is made
-              solely for real property taxation purposes pursuant to section 217
-              of RA. 7160 and should not be construed as conversion as
-              contemplated under RA No. 6657. CASSO Ctrl No. S031-05/09/23
-            </p>
-          </div>
-
-          <div>
-            <p>PROPERTY ASSESSMENT</p>
-            <table class="seventh_table" border="1px">
-              <tr>
-                <td rowspan="2">Reference</td>
-                <td rowspan="2">Previous Record</td>
-                <td colspan="2">Posting Rec</td>
-                <!-- Modified colspan to accommodate two cells -->
-                <td colspan="2">Post Inspection</td>
-              </tr>
-              <tr>
-                <td>Date</td>
-                <td>Posting Clerk</td>
-                <td>Initail</td>
-                <td>Date</td>
-              </tr>
-              <tr>
-                <td>Pin</td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td>ARPN/TDN</td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-              <tr>
-                <td>A/T Roll or Page No.</td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-              </tr>
-            </table>
-          </div>
+        <div class="header_3">
+          <p>APPRAISED BY:</p>
+          <p>RECOMENDING APPROVAL</p>
         </div>
+        <div>
+          <table class="8th_table">
+            <th style="text-decoration: underline">EDUARDO M. PARUNGAO JR.</th>
+            <th style="text-decoration: underline">5-8-23</th>
+            <th style="text-decoration: underline">SINTA IRA B. GUECO, REA</th>
+            <th style="text-decoration: underline">5-8-23</th>
+            <tr style="text-align: center">
+              <td>LAOO III, Lic No. 3040</td>
+              <td>Date</td>
+              <td>ASST CITY ASSESSOR Lic No. 10328</td>
+              <td>Date</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="header_3">
+          <p>ASSESSED BY:</p>
+          <p>APPROVED:</p>
+        </div>
+        <div>
+          <table class="eigth_table">
+            <th style="text-decoration: underline">REYAN R. MIRANDA, REA</th>
+            <th style="text-decoration: underline">5-8-23</th>
+            <th style="text-decoration: underline">
+              LUZ T. BAUTISTA, REA, PHD
+            </th>
+            <th style="text-decoration: underline">5-8-23</th>
+            <tr style="text-align: center">
+              <td>LAOO III, Lic No. 3040</td>
+              <td>Date</td>
+              <td>CITY ASSESSOR Lic No. 00295</td>
+              <td>Date</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="memoranda">
+          <p>
+            <b>MEMORANDA:</b> This reclassification and reassessment is made
+            solely for real property taxation purposes pursuant to section 217
+            of RA. 7160 and should not be construed as conversion as
+            contemplated under RA No. 6657. CASSO Ctrl No. S031-05/09/23
+          </p>
+        </div>
+
+        <div>
+          <p>PROPERTY ASSESSMENT</p>
+          <table class="seventh_table" border="1px">
+           <tr style="text-align: center; ">
+            <td rowspan="3">REFERENCE</td>
+            <td rowspan="3">PREVIOUS RECORDS</td>
+            <td colspan="2">POSTING RECORDS</td>
+            <td colspan="2">POST INSPECTION</td>
+           </tr>
+           <tr style="text-align: center; ">
+            <td rowspan="2">Date</td>
+            <td>Posting Clerk</td>
+            <td rowspan="2">Initial</td>
+            <td rowspan="2">Datesss</td>
+           </tr>
+           <tr style="text-align: center; ">
+            <td>Intital</td>            
+           </tr>
+           <tr>
+            <td>Pin</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ARPN/TDN</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>A/T Roll or AR page No.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          </table>
       </section>
-    </div>
   </body>
-  <script>
-    function displayImage(event) {
-      const selectedFile = event.target.files[0];
-      if (selectedFile) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-          document.getElementById("selectedImage").src = e.target.result;
-        };
-        reader.readAsDataURL(selectedFile);
-      }
-    }
-  </script>
 </html>
