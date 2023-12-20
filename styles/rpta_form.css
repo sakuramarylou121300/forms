@@ -27,8 +27,8 @@ td {
     width: 825px !important; 
 }
 .sheet{
-    padding-left: 27px;
-    padding-right: 27.5px;
+    padding-left: 37px;
+    padding-right: 40px;
     padding-top: 45px;
 }
 .header_1{
@@ -301,7 +301,7 @@ td {
     box-sizing: border-box;
 }
 .input_continue{
-    width: 740px;
+    width: 718px;
 }
 /* .memoranda_input {
     width: 800px;
