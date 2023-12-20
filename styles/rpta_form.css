@@ -27,8 +27,8 @@ td {
     width: 825px !important; 
 }
 .sheet{
-    padding-left: 37px !important;
-    padding-right: 40px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
     padding-top: 45px;
 }
 .header_1{
@@ -120,8 +120,8 @@ td {
     padding: 0;
 }
 .machine_desc{
-    min-width: 120px;
-    max-width: 120px;
+    min-width: 139px;
+    max-width: 139px;
 }
 .economic_life{
     min-width: 152px;
@@ -195,8 +195,8 @@ td {
     font-size: 10px;
 }
 .property_assess_table .pa_classification{
-    min-width: 80px;
-    max-width: 80px;
+    min-width: 88px;
+    max-width: 88px;
 }
 .property_assess_table .actual_use{
     min-width: 37px;
@@ -301,7 +301,7 @@ td {
     box-sizing: border-box;
 }
 .input_continue{
-    width: 718px;
+    width: 695px;
 }
 /* .memoranda_input {
     width: 800px;

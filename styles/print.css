@@ -1,0 +1,348 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  /* .sample{
+    visibility: visible;
+    font-size: 100px;
+  } */
+  .sheet *{
+    visibility: visible;
+  }
+
+  *{
+font-size: 12px;
+font-family: Calibri;
+margin: 0;
+padding: 0;
+vertical-align: top;
+}
+input{
+border-bottom: 1px solid #000; /* Bottom border style */
+border-top: none; /* Hide top border */
+border-left: none; /* Hide left border */
+border-right: none; /* Hide right border */
+}
+table {
+border-collapse: collapse;
+width: 100%;
+border: 1px solid black;
+}
+td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+word-wrap: break-word;
+}
+.container{
+margin: 0 auto !important; 
+width: 825px !important; 
+}
+.sheet{
+padding-left: 48px !important;
+padding-right: 18px !important;
+padding-top: 45px;
+}
+.header_1{
+display: flex;
+justify-content: space-between;
+margin-bottom: 3px;
+}
+.header_2, .update_code{
+display: flex;
+font-weight: bold;
+}
+.update_code input{
+width: 30px;
+}
+.update_code p{
+margin-left: 220px;
+}
+.arp_no{
+min-width: 250px;
+max-width: 250px;
+}
+.first_table td{
+padding: 0;
+}
+.pin, .pin_no, .pin_year, .pin_empty, .land_pin_no, .land_owner_input,
+.build_pin_no, .build_b01, .owner, .address_input{
+text-align: center;
+font-weight: bold;
+}
+.pin{
+min-width: 75px;
+max-width: 75px;
+text-align: start;
+font-weight: lighter;
+}
+.pin_no{
+min-width: 30px;
+}
+.pin_year{
+min-width: 51px;
+}
+.pin_empty{
+min-width: 50px;
+}
+
+.owner{
+vertical-align: center;
+margin-left: 100px;
+}
+.address td, .contact_no td{
+border-right: none;
+}
+.address_input{
+border-left: none !important;
+}
+.address_input p{
+width: 200px;
+}
+.land_owner{
+display: flex;
+}
+.land_owner_input{
+margin-left: 20px;
+width: 200px;
+line-height: 1;
+}
+.property_loc_title, .no_street_input,
+.prov_city_input, .pump_equipment, .property_assessment, 
+.general_desc_input, .property_assessment_1_input,
+.aquisition_input, .property_assess_table .assessed_value_input,
+.app_by_name, .recom_by_name, .assessed_by_name, .approved_by_name, .property_assess, .market_val, .pump_equipment_input{
+font-weight: bold;
+}
+.no_street{
+min-width: 120px;
+max-width: 120px;
+}
+.no_street_input{
+padding: 15px;
+}
+.no_street, .municipal{
+border-right: none;
+}
+.barangay_dist, .province_city{
+border-left: none;
+}
+.property_loc_title_table tr td, .property_assessment_table tr td,
+.app_recom_table tr td, .ref_post_sum tr td{
+padding: 0;
+}
+.machine_desc{
+min-width: 120px;
+max-width: 120px;
+}
+.economic_life{
+min-width: 152px;
+max-width: 152px;
+}
+.estimated, .remaining{
+min-width: 76px;
+max-width: 76px;
+}
+.brand_model,.classification, .date_install, .date_operation{
+min-width: 65px;
+max-width: 65px;
+}
+.capacity{
+min-width: 63px;
+max-width: 63px;
+}
+.condition_acquired{
+min-width: 60px;
+max-width: 60px;
+}
+.machine_desc, .brand_model, .capacity,
+.condition_acquired, .economic_life,
+.classification, .date_install, .date_operation,
+.estimated, .remaining, .pump_equipment, .general_desc,
+.property_assessment_1, .aquisition, .conversion_factor,
+.price_index, .rcn, .depreciation, .market_val, 
+.general_desc_input, .property_assessment_1_input,
+.aquisition_input, .property_assess_table .pa_classification,
+.property_assess_table .actual_use, .property_assess_table .pa_market_val,
+.property_assess_table .assess_level, .property_assess_table .assessed_value, .property_assess_table .assessed_value_input,
+.ref_post_sum .row1 td, .ref_post_sum .row2 td, .pump_equipment_input{
+text-align: center;
+}
+.pump_equipment, .property_assess_table tr td, .general_desc, 
+.depreciation, .ref_post_sum tr td{
+vertical-align: middle;
+}
+.pump_equipment_td, .property_assessment_table tr td, .property_assess_table tr td{
+height: 16.36px;
+padding: 0;
+}
+/* .pump_equipment_input{
+
+} */
+.property_assessment{
+min-width: 200px;
+max-width: 200px;
+}
+.property_assessment_empty{
+min-width: 40px;
+}
+.property_assessment_1{
+min-width: 50px;
+max-width: 50px;
+}
+.aquisition{
+min-width: 50px;
+max-width: 50px;
+}
+.conversion_factor, .price_index{
+min-width: 63px;
+max-width: 63px;
+}
+.rcn, .depreciation, .market_val{
+min-width: 53px;
+max-width: 53px;
+}
+.general_desc_input, .property_assessment_1_input,
+.aquisition_input, .market_val, .pump_equipment_input{
+font-size: 10px;
+}
+.property_assess_table .pa_classification{
+min-width: 80px;
+max-width: 80px;
+}
+.property_assess_table .actual_use{
+min-width: 37px;
+max-width: 37px;
+}
+.property_assess_table .market_val{
+min-width: 242px;
+max-width: 242px;
+}
+.property_assess_table .assess_level{
+min-width: 17px;
+max-width: 17px;
+}
+.property_assess_table .assessed_value,
+.property_assess_table .assessed_value_input{
+min-width: 55px;
+max-width: 55px;
+}
+.total{
+font-weight: lighter; 
+text-align: end; 
+}
+.app_recom_table{
+margin-top: 30px;
+border-collapse: collapse;
+border: none;
+}
+.app_by, .recom_by{
+border-top: none; /* Hide top border */
+border-left: none; /* Hide left border */
+border-right: none; /* Hide right border */
+border-bottom: none;
+}
+.app_recom_details td,.assessed_approve td{
+padding-top: 15px !important;
+}
+.app_recom_table .app_by_name, .assessed_by_name{
+min-width: 120px;
+max-width: 120px;
+text-align: center;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+.app_recom_table .app_by_date{
+min-width: 65px;
+text-align: center;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+.app_recom_table .space{
+min-width: 60px;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: none;
+}
+.app_recom_table .recom_by_name, .app_recom_table .approved_by_name{
+min-width: 100px;
+max-width: 100px;
+text-align: center;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+.recom_by_date{
+min-width: 60px;
+max-width: 60px;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+.prev_owner, .taxability, .prev_assess,
+.tax_effect{
+text-align: start;
+}
+.taxability, .tax_effect{
+border-right: none;
+}
+.taxability_input, .tax_effect_input{
+border-left: none;
+text-align: center;
+font-weight: bold;
+}
+.app_recom_details2 td{
+border: none;
+text-align: center;
+font-size: 11px;
+}
+.memoranda{
+margin-top: 50px;
+display: flex;
+}
+
+.memoranda_input{
+width: 800px;
+padding-left: 30px;
+}
+.memoranda_input input{
+width: 100%; 
+box-sizing: border-box;
+}
+.input_continue{
+width: 728px;
+}
+/* .memoranda_input {
+width: 800px;
+padding-left: 30px;
+box-sizing: border-box;
+overflow: hidden; 
+}
+
+.memoranda_input input {
+width: 10ch;
+} */
+
+.ref_post_sum .ref{
+min-width: 140px;
+}
+.ref_post_sum .prev_rec{
+min-width: 140px;
+}
+.ref_post_sum .post_rec{
+min-width: 90px;
+}
+.ref_post_sum .post_inspect{
+min-width: 100px;
+}
+.post_rec_date{
+min-width: 50px;
+}
+.post_init_clerk, .post_insp_init, .post_insp_date{
+min-width: 50px;
+}
+ 
+}
